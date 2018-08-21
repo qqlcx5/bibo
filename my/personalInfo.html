@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet" href="../css/mui.min.css">
     <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/border.css">
     <link rel="stylesheet" href="../css/reset.css">
-
-
     <title>Document</title>
     <style>
         .body-content {
@@ -78,6 +75,16 @@
             padding-left: 0.2rem;
         }
 
+        .item-li-img {
+            height: 1.6rem;
+            display: inline-flex;
+
+            width: 100%;
+            align-items: center;
+            background: #fff;
+            border-bottom: 0.02rem solid #CCCCCC;
+        }
+
         .item-li-name {
             opacity: 0.3;
         }
@@ -87,10 +94,8 @@
             padding-right: 0.2rem;
             opacity: 0.3;
         }
- 
     </style>
 </head>
-
 <body>
     <div class="body-content">
         <div class="header">
@@ -100,7 +105,7 @@
                 </div>
             </a>
             <div class="header-content">
-                账户管理
+                个人资料
             </div>
             <div class="header-right">
             </div>
@@ -108,26 +113,78 @@
         <div>
             <div class="margin-top">
                 <ul>
-                    <li class="item-li">
+                    <li class="item-li-img">
                         <div class="item-li-title">
-                            微信
+                            头像
                         </div>
-                        <div class="item-li-name">未绑定</div>
+                        <div class="">
+                            <img src="../icon/img.png" alt="">
+                        </div>
                         <span class="iconfont upicon">&#xe602;</span>
                     </li>
+                    <a href="personalInfo-name.html">
                     <li class="item-li">
                         <div class="item-li-title">
-                            QQ
+                            名字
                         </div>
-                        <div class="item-li-name">未绑定</div>
+                        <div class="item-li-name">火火</div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    </a>
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            账号
+                        </div>
+                        <div class="item-li-name">yh123456789</div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    <a href="personalInfo-QRcode.html">
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            我的二维码
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    </a>
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            我的地址
+                        </div>
                         <span class="iconfont upicon">&#xe602;</span>
                     </li>
 
+                </ul>
+            </div>
 
+            <div class="margin-top ">
+                <ul>
+                    <a href="personalInfo-sex.html">
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            性别
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    </a>
+                    <a href="personalInfo-local.html">
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            地区
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    </a>
+                    <a href="personalInfo-sign.html">
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            个性签名
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    </a>
                 </ul>
             </div>
         </div>
     </div>
 </body>
-
 </html>

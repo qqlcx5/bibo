@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet" href="../css/mui.min.css">
     <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/border.css">
     <link rel="stylesheet" href="../css/reset.css">
 
 
@@ -19,6 +18,7 @@
             height: 100vh;
             width: 100%;
             color: #25212B;
+            font-size: .32rem;
         }
 
         /* 标题部分 */
@@ -32,6 +32,7 @@
             align-items: center;
             overflow: hidden;
         }
+
         .header-left {
             min-width: 1rem;
             line-height: 0.6rem;
@@ -65,7 +66,8 @@
 
         .item-li {
             display: inline-flex;
-            height: .8rem;
+            height: 1.2rem;
+
             width: 100%;
             align-items: center;
             background: #fff;
@@ -76,38 +78,21 @@
             flex: 1;
             padding-left: 0.2rem;
         }
-
-        .item-li-name {
-            opacity: 0.3;
-        }
-
         .upicon {
             font-size: 0.4rem;
             padding-right: 0.2rem;
             opacity: 0.3;
         }
-
-        .margin-switch {
-            margin-right: .2rem;
-        }
-
-        .mui-switch-mini {
-            width: 1rem;
-        }
-
+        
         .justify-btn {
             display: flex;
             justify-content: center;
         }
 
         .btn-red {
-            width: 6rem;
-            height: .8rem;
-            border-radius: 0.4rem;
-            background: #E72525;
-            font-size: .34rem;
-            color: #fff;
-            letter-spacing: 0.04rem;
+            width: 100%;
+            height: 1.2rem;
+            background-color: #ffffff;
         }
     </style>
 </head>
@@ -121,7 +106,7 @@
                 </div>
             </a>
             <div class="header-content">
-                资料设置
+                系统设置
             </div>
             <div class="header-right">
             </div>
@@ -129,83 +114,56 @@
         <div>
             <div class="margin-top">
                 <ul>
+
+                    <a href="personalInfo-bill-manage.html">
                     <li class="item-li">
                         <div class="item-li-title">
-                            设置备注及标签
+                            账号管理
                         </div>
-                        <div class="item-li-name">火火</div>
                         <span class="iconfont upicon">&#xe602;</span>
                     </li>
+                    </a>
+                    <a href="personalInfo-pay-manage.html">
                     <li class="item-li">
                         <div class="item-li-title">
-                            把他推荐给朋友
+                            支付管理
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    </a>
+                    <a href="personalInfo-notification.html">
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            消息通知
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    </a>
+                    <a href="personalInfo-language-setting.html">
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            语言管理
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    </a>
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            关于我们
                         </div>
                         <span class="iconfont upicon">&#xe602;</span>
                     </li>
 
-                </ul>
-            </div>
 
-            <div class="margin-top ">
-                <ul>
-                    <li class="item-li">
-                        <div class="item-li-title">
-                            设为标签朋友
-                        </div>
-                        <div class="mui-switch mui-switch-mini margin-switch ">
-                            <div class="mui-switch-handle "></div>
-                        </div>
-                    </li>
-                    <li class="item-li">
-                        <div class="item-li-title">
-                            不让他看我的社交圈
-                        </div>
-                        <div class="mui-switch mui-switch-mini margin-switch">
-                            <div class="mui-switch-handle"></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="margin-top ">
-                <ul class="mui-table-view ">
-                    <li class="item-li">
-                        <div class="item-li-title">
-                            不看他的社交圈
-                        </div>
-                        <div class="mui-switch mui-switch-mini margin-switch">
-                            <div class="mui-switch-handle"></div>
-                        </div>
-                    </li>
-                    <li class="item-li">
-                        <div class="item-li-title">
-                            加入黑名单
-                        </div>
-                        <div class="mui-switch mui-switch-mini margin-switch">
-                            <div class="mui-switch-handle"></div>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
-            <div class="margin-top ">
-                <ul>
-                    <li class="item-li">
-                        <div class="item-li-title">
-                            投诉
-                        </div>
-                        <span class="iconfont upicon">&#xe602;</span>
-                    </li>
                 </ul>
             </div>
         </div>
         <div class="margin-top justify-btn ">
-
-            <button type="button " class="btn-red ">删除</button>
+            <button type="button" class="btn-red ">退出登录</button>
         </div>
     </div>
-    <script src="js/mui.min.js "></script>
-    <script src="js/update.js " type="text/javascript " charset="utf-8 "></script>
-</body>
+
+
 </body>
 
 </html>

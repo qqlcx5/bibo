@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet" href="../css/mui.min.css">
     <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/border.css">
     <link rel="stylesheet" href="../css/reset.css">
     <title>Document</title>
     <style>
         .body-content {
             height: 100vh;
             width: 100%;
-            color: #25212B;
             background: #fff;
         }
 
@@ -67,10 +65,28 @@
             position: absolute;
             left: 0;
             right: 0;
-            bottom: 2.8rem;
-            height: 0;
-            padding-bottom: 1rem;
+            bottom: 50vw;
+            height: 1rem;
             background: #ccc;
+            display: flex;
+            align-items: center;
+        }
+        .send-message img{
+            height: .8rem;
+            width: .8rem;
+        }
+        .send-message input{
+            margin: 0;
+            flex: 1;
+            height: .8rem;
+            background-color: #ffffff;
+            border-radius: 0.12rem;
+        }
+
+        .mgl{
+            margin-left: 0.2rem;
+        }.mgr{
+            margin-right: 0.2rem;
         }
 
         .bottom {
@@ -139,28 +155,17 @@
             </div>
         </div>
     </div>
-
     <div class="send-message">
-        <div class="send-message-item">
-            <img class="item-img" src="icon/语音@2x.png" alt="">
-        </div>
-        <div class="send-message-item">
-            <img class="item-img" src="icon/语音@2x.png" alt="">
-        </div>
-
-        <div>
+            <img class="mgl" src="../icon/yuyin@2x.png" alt="">
+            <img class="mgl mgr" src="../icon/weixiao@2x.png" alt="">
             <input type="text">
-        </div>
-        <div class="send-message-item">
-            <img class="item-img" src="icon/语音@2x.png" alt="">
-        </div>
+            <img class="mgl mgr" src="../icon/jiahao@2x.png" alt="">
     </div>
-
     <div class="bottom">
         <div class="bottom-bottom">
             <div class="icon-item">
                 <div class="icon-img">
-                    <img class="img-content" src="icon/照片@2x.png" alt="">
+                    <img class="img-content" src="../icon/zhaopian@2x.png" alt="">
                 </div>
                 <div class="keywords">照片
 
@@ -168,7 +173,7 @@
             </div>
             <div class="icon-item">
                 <div class="icon-img">
-                    <img class="img-content" src="icon/相机@2x.png" alt="">
+                    <img class="img-content" src="../icon/xiangji@2x.png" alt="">
                 </div>
                 <div class="keywords">相机
 
@@ -176,7 +181,7 @@
             </div>
             <div class="icon-item">
                 <div class="icon-img">
-                    <img class="img-content" src="icon/小视屏@2x.png" alt="">
+                    <img class="img-content" src="../icon/xiaoshiping@2x.png" alt="">
                 </div>
                 <div class="keywords">小视屏
 
@@ -184,7 +189,7 @@
             </div>
             <div class="icon-item">
                 <div class="icon-img">
-                    <img class="img-content" src="icon/视屏聊天@2x.png" alt="">
+                    <img class="img-content" src="../icon/shipingliaotian@2x.png" alt="">
                 </div>
                 <div class="keywords">视屏聊天
 
@@ -192,7 +197,7 @@
             </div>
             <div class="icon-item">
                 <div class="icon-img">
-                    <img class="img-content" src="icon/转币@2x.png" alt="">
+                    <img class="img-content" src="../icon/zhuanbi@2x.png" alt="">
                 </div>
                 <div class="keywords">转币
 
@@ -200,7 +205,7 @@
             </div>
             <div class="icon-item">
                 <div class="icon-img">
-                    <img class="img-content" src="icon/发币@2x.png" alt="">
+                    <img class="img-content" src="../icon/fabi@2x.png" alt="">
                 </div>
                 <div class="keywords">发币
 
@@ -208,7 +213,7 @@
             </div>
             <div class="icon-item">
                 <div class="icon-img">
-                    <img class="img-content" src="icon/收藏@2x.png" alt="">
+                    <img class="img-content" src="../icon/shoucang@2x.png" alt="">
                 </div>
                 <div class="keywords">收藏
 
@@ -216,9 +221,9 @@
             </div>
             <div class="icon-item">
                 <div class="icon-img">
-                    <img class="img-content" src="icon/位置@2x.png" alt="">
+                    <img class="img-content" src="../icon/weizhi@2x.png" alt="">
                 </div>
-                <div class="keywords">收藏
+                <div class="keywords">位置
 
                 </div>
             </div>
@@ -228,10 +233,6 @@
 
 
     </div>
-
-    <script src="js/mui.min.js "></script>
-    <script src="js/update.js " type="text/javascript " charset="utf-8 "></script>
-</body>
 </body>
 
 </html>
