@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/border.css">
+    <title>Document</title>
+    <style>
+        .header {
+            width: 100%;
+            height: 3.4rem;
+            background: #33CCCC;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-title {
+            height: .88rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.36rem;
+            color: #fff;
+        }
+
+        .icon-box {
+            box-sizing: border-box;
+            padding: 0 .4rem;
+        }
+
+        .icon-info {
+            width: 100%;
+            height: 1.24rem;
+            margin-top: -0.62rem;
+            background-color: #ffffff;
+            border-radius: 0.06rem;
+            box-shadow: 4px 4px 8px 0 rgba(238, 238, 238, 0.5);
+            display: flex;
+            flex: 0 0 33.33%;
+            overflow: hidden;
+        }
+
+        .icon-item {
+
+            height: 1.24rem;
+            width: 100%;
+            border-right: 1px solid #fff;
+        }
+
+        .icon-item-top {
+            width: 100%;
+            height: 0.6rem;
+            text-align: center;
+            line-height: 0.8rem;
+        }
+
+        .icon-item-top img {
+            height: 0.4rem;
+            width: 0.4rem;
+        }
+
+        .icon-item-bottom {
+            height: 0.64rem;
+            line-height: 0.64rem;
+            font-size: 0.28rem;
+            text-align: center;
+        }
+
+        .border-li {
+            width: 0.04rem;
+            height: 0.84rem;
+            background-color: #999;
+            margin: 0.2rem 0;
+        }
+
+        .header-info {
+            height: 2.52rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+            line-height: 0.5rem;
+            font-size: 0.32rem;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0px;
+            height: 0.97rem;
+            width: 100%;
+            border-top: 1px solid #ccc;
+            text-align: center;
+            z-index: 99;
+            background-color: #fff;
+        }
+
+        .footer-item {
+            float: left;
+            width: 25%;
+            height: 100%;
+            padding-top: 0.12rem;
+        }
+
+        .footer-item img {
+            width: 0.36rem;
+            height: 0.36rem;
+            margin-bottom: 0.1rem;
+        }
+
+        .list {
+            width: 100%;
+            height: 1.6rem;
+            display: flex;
+            align-items: center;
+            border-bottom: 0.02rem solid #cccccc;
+
+        }
+
+        .list-img img {
+            width: 0.72rem;
+            height: .72rem;
+        }
+
+        .mgl {
+            margin-left: 0.3rem;
+        }
+
+        .mgbot {
+            margin-bottom: 0.2rem;
+        }
+
+        .list-title {
+            display: flex;
+            flex: 1;
+            height: 1.6rem;
+        }
+
+        .list-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .list-name {
+            display: block;
+            height: .46rem;
+            font-size: .36rem;
+            line-height: .33rem;
+        }
+
+        .list-desc {
+            font-size: .32rem;
+            line-height: .33rem;
+            color: #999;
+        }
+
+        .list-money {
+            width: 3rem;
+            height: 1.6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+        .list-cny {
+            height: 0.5rem;
+            font-size: .28rem;
+            line-height: .33rem;
+        }
+
+        .upicon {
+            display: flex;
+            width: 0.8rem;
+            height: 1.6rem;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.6rem;
+        }
+
+        .upicon .up {
+            font-size: 0.5rem;
+            color: #888;
+        }
+
+        .task {
+            width: 100%;
+            height: 2.7rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .task-item {
+            width: 3rem;
+            height: 1.76rem;
+            background-color: #33cccc;
+            border-radius: 0.12rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: .36rem;
+            line-height: .33rem;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .task-item div {
+            height: 1.2rem;
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .task-item:nth-child(1) img {
+            width: .72rem;
+            height: .84rem;
+
+        }
+
+        .task-item:nth-child(2) img {
+            width: .76rem;
+            height: .51rem;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <div class="header-title">
+        我的财富
+    </div>
+    <div class="header-info">
+        <p>总资产</p>
+        <p>9999999</p>
+        <p>CNY</p>
+    </div>
+</div>
+<div class="icon-box mgbot">
+    <div class="icon-info">
+        <div class="icon-item">
+            <div class="icon-item-top">
+                <img src="../icon/兑换记录@2x.png" alt="">
+            </div>
+            <div class="icon-item-bottom">兑换记录</div>
+        </div>
+        <div class="border-li"></div>
+        <div class="icon-item">
+            <div class="icon-item-top">
+                <img src="../icon/充币记录@2x.png" alt="">
+            </div>
+            <div class="icon-item-bottom">充币记录</div>
+        </div>
+        <div class="border-li"></div>
+        <div class="icon-item">
+            <div class="icon-item-top">
+                <img src="../icon/提币记录@2x.png" alt="">
+            </div>
+            <div class="icon-item-bottom">提币记录</div>
+        </div>
+
+
+    </div>
+</div>
+<div>
+    <a href="wealth-info.html">
+        <div class="list">
+            <div class="list-img mgl">
+                <img src="../icon/BBB@2x.png" alt="">
+            </div>
+            <div class="list-title">
+                <div class="list-item  mgl">
+                    <div class="list-name">BBB</div>
+                    <div class="list-desc">(BiBoBi)</div>
+                </div>
+            </div>
+            <div class="list-money">
+                <div class="list-cny">
+                    行情价：0.0092 CNY
+                </div>
+                <div>
+                    个数：100
+                </div>
+            </div>
+            <div class="upicon">
+                <span class="iconfont up">&#xe602;</span>
+            </div>
+        </div>
+    </a>
+    <div class="list">
+        <div class="list-img mgl">
+            <img src="../icon/BBB@2x.png" alt="">
+        </div>
+        <div class="list-title">
+            <div class="list-item  mgl">
+                <div class="list-name">BBB</div>
+                <div class="list-desc">(BiBoBi)</div>
+            </div>
+        </div>
+        <div class="list-money">
+            <div class="list-cny">
+                行情价：0.0092 CNY
+            </div>
+            <div>
+                个数：100
+            </div>
+        </div>
+        <div class="upicon">
+            <span class="iconfont up">&#xe602;</span>
+        </div>
+    </div>
+    <div class="list">
+        <div class="list-img mgl">
+            <img src="../icon/BBB@2x.png" alt="">
+        </div>
+        <div class="list-title">
+            <div class="list-item  mgl">
+                <div class="list-name">BBB</div>
+                <div class="list-desc">(BiBoBi)</div>
+            </div>
+        </div>
+        <div class="list-money">
+            <div class="list-cny">
+                行情价：0.0092 CNY
+            </div>
+            <div>
+                个数：100
+            </div>
+        </div>
+        <div class="upicon">
+            <span class="iconfont up">&#xe602;</span>
+        </div>
+    </div>
+</div>
+<div class="task">
+    <div class="task-item">
+        <div>
+            <img src="../icon/任务赚币@2x.png" alt="">
+        </div>
+        任务赚币
+    </div>
+    <div class="task-item">
+        <div>
+            <img src="../icon/游戏赚币@2x.png" alt="">
+        </div>
+        游戏赚币
+    </div>
+
+
+</div>
+<footer>
+    <a href="../index.html">
+        <div class="footer-item">
+            <img src="../icon/商城线性拷贝@2x.png" alt="">
+            <p>商城</p>
+        </div>
+    </a>
+    <a href="../wealth/wealth.html">
+        <div class="footer-item">
+            <img src="../icon/财富剪影拷贝@2x.png" alt="">
+            <p class="footer-tab-selected">财富</p>
+        </div>
+    </a>
+    <a href="../social/社交.html">
+        <div class="footer-item">
+            <img src="../icon/社交线性拷贝@2x.png" alt="">
+            <p>社交</p>
+        </div>
+    </a>
+    <a href="../my/我.html">
+        <div class="footer-item">
+            <img src="../icon/我的线性拷贝@2x.png" alt="">
+            <p>我</p>
+        </div>
+    </a>
+</footer>
+
+</body>
+
+</html>

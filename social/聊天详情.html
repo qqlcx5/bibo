@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+
+
+    <title>Document</title>
+    <style>
+        .body-content {
+            background: #F2F2F2;
+            height: 100vh;
+            width: 100%;
+            color: #25212B;
+        }
+
+        /* 标题部分 */
+
+        .header {
+            height: 0.88rem;
+            width: 100%;
+            background: #33cccc;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .header-left {
+            min-width: 1rem;
+            line-height: 0.6rem;
+            padding-left: 0.2rem;
+            text-align: left;
+        }
+
+        .back {
+            font-size: 0.4rem;
+        }
+
+        .header-content {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            font-size: 0.34rem;
+        }
+
+        .header-right {
+            text-align: right;
+            min-width: 1rem;
+        }
+
+
+        /* 内容部分 */
+
+        .margin-top {
+            margin-top: 0.16rem
+        }
+
+        .item-li {
+            display: inline-flex;
+            height: .8rem;
+            width: 100%;
+            align-items: center;
+            background: #fff;
+            border-bottom: 0.02rem solid #CCCCCC;
+        }
+
+        .item-li-title {
+            flex: 1;
+            padding-left: 0.2rem;
+        }
+
+        .upicon {
+            font-size: 0.4rem;
+            padding-right: 0.2rem;
+            opacity: 0.3;
+        }
+
+        .margin-switch {
+            margin-right: .2rem;
+        }
+
+        .mui-switch-mini {
+            width: 1rem;
+        }
+
+        .user {
+            width: 100%;
+            background: #fff;
+            height: 2.12rem;
+            display: inline-flex;
+        }
+
+        .user-name {
+            display: flex;
+            align-items: center;
+            padding: 0.2rem;
+            width: 1.6rem;
+            flex-direction: column;
+        }
+
+        .user-item {
+            width: 1.2rem;
+            height: 1.2rem;
+            border-radius: 50%;
+        }
+
+        .user-desc {
+            line-height: 0.6rem;
+        }
+
+        .add {
+            margin: 0.2rem;
+
+        }
+
+        .add-icon {
+            font-size: 1.2rem;
+            opacity: .3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-content">
+        <div class="header">
+            <a href="javascript:history.back();">
+                <div class="header-left">
+                    <span class="iconfont back">&#xe600;</span>
+                </div>
+            </a>
+            <div class="header-content">
+                聊天详情
+            </div>
+            <div class="header-right">
+            </div>
+        </div>
+        <div class="user">
+            <div class="user-name">
+                <img class="user-item" src="icon/img.png" alt="">
+                <div class="user-desc">火</div>
+            </div>
+            <div class="add">
+                <span class="iconfont add-icon">&#xe616;</span>
+            </div>
+        </div>
+        <!-- 页面内容 -->
+        <div>
+            <div class="margin-top">
+                <ul>
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            聊天记录
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            消息免打扰
+                        </div>
+                        <div class="mui-switch mui-switch-mini margin-switch ">
+                            <div class="mui-switch-handle "></div>
+                        </div>
+                    </li>
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            聊天文件
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            设置聊天背景
+                        </div>
+                        <span class="iconfont upicon">&#xe602;</span>
+                    </li>
+                    <li class="item-li">
+                        <div class="item-li-title">
+                            清空聊天记录
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/mui.min.js "></script>
+    <script src="js/update.js " type="text/javascript " charset="utf-8 "></script>
+</body>
+</body>
+
+</html>

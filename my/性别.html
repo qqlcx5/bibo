@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/border.css">
+    <title>Document</title>
+    <style>
+        body {
+            background: #F2F2F2;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .header {
+            height: 0.88rem;
+            width: 100%;
+            background: #33cccc;
+            display: flex;
+            color: #fff;
+            align-items: center;
+        }
+
+        .header-left {
+            min-width: 1rem;
+            line-height: 0.6rem;
+            padding-left: 0.2rem;
+            text-align: left;
+        }
+
+        .back {
+            font-size: 0.4rem;
+        }
+
+        .header-content {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            font-size: 0.34rem;
+        }
+
+        .header-right {
+            text-align: right;
+            min-width: 1rem;
+        }
+
+        .item {
+            height: .8rem;
+            width: 100%;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            padding-left: 0.2rem;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <a href="javascript:history.back();">
+                <div class="header-left">
+                    <span class="iconfont back">&#xe600;</span>
+                </div>
+            </a>
+            <div class="header-content">
+                性别
+            </div>
+            <div class="header-right">
+
+            </div>
+        </div>
+        <div class="">
+            <ul>
+                <li class="item">男</li>
+                <li class="item">女</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

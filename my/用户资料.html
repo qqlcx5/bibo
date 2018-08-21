@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/iconfont.css">
+		<link rel="stylesheet" href="../css/reset.css">
+		<title>用户资料</title>
+		<style>
+			.body-content {
+				background: #F2F2F2;
+				height: 100vh;
+				width: 100%;
+				color: #25212B;
+				font-size: .32rem;
+			}
+			
+			.header {
+				height: 0.88rem;
+				width: 100%;
+				background: #33cccc;
+				display: flex;
+				color: #fff;
+				align-items: center;
+				overflow: hidden;
+			}
+			
+			.header-left {
+				min-width: 1rem;
+				line-height: 0.6rem;
+				padding-left: 0.2rem;
+				text-align: left;
+			}
+			
+			.back {
+				font-size: 0.4rem;
+			}
+			
+			.header-content {
+				flex: 1;
+				overflow: hidden;
+				display: flex;
+				justify-content: center;
+				font-size: 0.34rem;
+			}
+			
+			.header-right {
+				text-align: right;
+				min-width: 1rem;
+			}
+			
+			.margin-top {
+				margin-top: 0.16rem
+			}
+			
+			.img-item {
+				display: inline-flex;
+				height: 2rem;
+				width: 100%;
+				padding-left: 0.2rem;
+				border-bottom: 0.02rem solid #CCCCCC;
+				align-items: center;
+				background: #fff;
+			}
+			
+			.img-box {
+				width: 1.2rem;
+				height: 1.2rem;
+				border-radius: 50%;
+			}
+			
+			.img-box img {
+				width: 100%;
+			}
+			
+			.nick-name {
+				letter-spacing: 0.02rem;
+				font-size: 0.36rem;
+				margin-left: 0.4rem;
+			}
+			
+			.item-li {
+				display: inline-flex;
+				height: 0.8rem;
+				width: 100%;
+				align-items: center;
+				background: #fff;
+				border-bottom: 0.02rem solid #CCCCCC;
+			}
+			
+			.item-li-title {
+				flex: 1;
+				padding-left: 0.2rem;
+			}
+			
+			.item-li-name {
+				opacity: 0.3;
+			}
+			
+			.qrcode {
+				width: 0.36rem;
+				opacity: 0.3;
+			}
+			
+			.upicon {
+				font-size: 0.4rem;
+				padding-right: 0.2rem;
+				opacity: 0.3;
+			}
+			
+			.introduce-box {
+				width: 100%;
+				height: 2rem;
+				background: #fff;
+				padding-left: 0.2rem;
+				padding-top: 0.2rem;
+				border-bottom: 0.02rem solid #CCCCCC;
+			}
+			
+			.margin-switch {
+				margin-right: .2rem;
+			}
+			
+			.btn-box {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="body-content">
+			<div class="header">
+				<a href="javascript:history.back();">
+				<div class="header-left">
+					<span class="iconfont back">&#xe600;</span>
+				</div>
+				</a>
+				<div class="header-content">
+					用户资料
+				</div>
+				<div class="header-right">
+				</div>
+			</div>
+			<div>
+				<div class="margin-top">
+					<ul>
+						<li class="img-item">
+							<div class="img-box">
+								<img src="../icon/img.png" alt="">
+							</div>
+							<span class="nick-name">电器</span>
+						</li>
+						<li class="item-li">
+							<div class="item-li-title">
+								名片
+							</div>
+							<img class="qrcode" src="../icon/QRcode.png" alt="" class="qrcode" />
+							<span class="iconfont upicon">&#xe602;</span>
+						</li>
+						<li class="item-li">
+							<div class="item-li-title">
+								国家
+							</div>
+							<span class="iconfont upicon">&#xe602;</span>
+						</li>
+						<li class="item-li">
+							<div class="item-li-title">
+								描述
+							</div>
+							<span class="iconfont upicon">&#xe602;</span>
+						</li>
+					</ul>
+				</div>
+				<div class="margin-top">
+					<div class="introduce-box">
+						商家简介
+					</div>
+				</div>
+			</div>
+			<div class="margin-top">
+				<ul class="btn-box">
+					<li class="item-li">
+						<div class="item-li-title">
+							发消息
+						</div>
+					</li>
+					<li class="item-li margin-top">
+						<div class="item-li-title">
+							呼叫
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	</body>
+</html>

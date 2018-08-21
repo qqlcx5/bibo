@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="../css/iconfont.css">
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/border.css">
+		<title>名字</title>
+		<style type="text/css">
+			body {
+				width: 100%;
+				height: 100%;
+				background: #F2F2F2;
+			}
+			
+			.header {
+				height: 0.88rem;
+				width: 100%;
+				background: #33cccc;
+				display: flex;
+				color: #fff;
+				align-items: center;
+			}
+			
+			.header-left {
+				min-width: 1rem;
+				line-height: 0.6rem;
+				padding-left: 0.2rem;
+				text-align: left;
+			}
+			
+			.back {
+				font-size: 0.4rem;
+			}
+			
+			.header-content {
+				flex: 1;
+				overflow: hidden;
+				display: flex;
+				justify-content: center;
+				font-size: 0.34rem;
+			}
+			
+			.header-right {
+				text-align: right;
+				min-width: 1rem;
+			}
+			
+			.save {
+				font-size: 0.28rem;
+				padding-right: 0.2rem;
+			}
+			
+			input::-webkit-input-placeholder {
+				/* WebKit browsers */
+				opacity: 0.3;
+				padding-left: 0.2rem;
+			}
+			
+			input:-moz-placeholder {
+				/* Mozilla Firefox 4 to 18 */
+				opacity: 0.3;
+				padding-left: 0.2rem;
+			}
+			
+			input::-moz-placeholder {
+				/* Mozilla Firefox 19+ */
+				opacity: 0.3;
+				padding-left: 0.2rem;
+			}
+			
+			input:-ms-input-placeholder {
+				/* Internet Explorer 10+ */
+				opacity: 0.3;
+				padding-left: 0.2rem;
+			}
+			
+			.input-box {
+				position: relative;
+				margin-top: 0.2rem;
+			}
+			
+			.nick-input {
+				width: 100%;
+				height: 0.8rem;
+				font-size: 0.32rem;
+			}
+			
+			.clean-btn {
+				position: absolute;
+				right: 0.2rem;
+				height: 0.3rem;
+				width: 0.3rem;
+				top: 50%;
+				margin-top: -0.15rem;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header">
+			<a href="javascript:history.back();">
+			<div class="header-left">
+				<span class="iconfont back">&#xe600;</span>
+			</div>
+			</a>
+			<div class="header-content">
+				名字
+			</div>
+			<div class="header-right">
+				<span class="save">保存</span>
+			</div>
+		</div>
+		<div class="input-box">
+			<input type="text" placeholder="业火" class="nick-input">
+			<img src="../icon/X@2x.png" alt="清除" class="clean-btn">
+		</div>
+	</body>
+
+</html>

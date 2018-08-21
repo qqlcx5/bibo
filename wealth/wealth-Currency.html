@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Document</title>
+    <style>
+        .body-content {
+            background: #F2F2F2;
+            height: 100vh;
+            width: 100%;
+            color: #25212B;
+        }
+
+        /* 标题部分 */
+
+        .header {
+            height: 0.88rem;
+            width: 100%;
+            background: #33cccc;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .header-left {
+            min-width: 1rem;
+            line-height: 0.6rem;
+            padding-left: 0.2rem;
+            text-align: left;
+        }
+
+        .back {
+            font-size: 0.4rem;
+        }
+
+        .header-content {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            font-size: 0.34rem;
+        }
+
+        .header-right {
+            text-align: right;
+            min-width: 1rem;
+        }
+
+
+        /* 内容部分 */
+
+        .BBB-info {
+            width: 100%;
+            height: 4rem;
+            background-color: #ffffff;
+        }
+
+        .BBB-top {
+            height: 4rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .BBB-top img {
+            width: 1.2rem;
+            height: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        .Balance {
+            font-size: .8rem;
+            height: .8rem;
+            line-height: .8rem;
+            color: #f60505;
+        }
+
+        .Balance-name {
+            height: .6rem;
+            font-size: .36rem;
+            line-height: .6rem;
+            color: #888;
+        }
+
+        .bbb-desc {
+            width: 100%;
+            text-align: center;
+            height: .8rem;
+            line-height: .8rem;
+            font-size: .24rem;
+            color: #777;
+        }
+
+        .exchange {
+            display: inline-flex;
+            width: 100%;
+            height: 0.8rem;
+            line-height: .8rem;
+            background: #fff;
+            margin-top: 0.2rem;
+        }
+
+        .exchange-name {
+            display: flex;
+            width: 2rem;
+            font-size: 0.32rem;
+            padding-left: 0.2rem;
+            height: .8rem;
+            line-height: .8rem;
+        }
+
+        .exchange input {
+            flex: 1;
+            height: .8rem;
+            font-size: 0.28rem;
+            color: #666;
+            border: none;
+            outline: none;
+        }
+
+        .exchange ::-webkit-input-placeholder {
+            color: #888;
+
+        }
+
+        .sao-img img {
+            width: .44rem;
+            height: .44rem;
+            margin-right: 0.2rem;
+        }
+
+        .justify-btn {
+            display: flex;
+
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .forget {
+            font-size: .28rem;
+            padding-right: 0.1rem;
+        }
+
+        .btn {
+            width: 6rem;
+            height: .8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.4rem;
+            background: #1abaf5;
+            font-size: .34rem;
+            color: #fff;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-content">
+        <div class="header">
+            <a href="javascript:history.back();">
+            <div class="header-left">
+                <span class="iconfont back">&#xe600;</span>
+            </div>
+            </a>
+            <div class="header-content">
+                兑换
+            </div>
+            <div class="header-right">
+            </div>
+        </div>
+
+
+        <div class="BBB-info">
+            <div class="BBB-top">
+                <div>
+                    <img src="../icon/BBB@2x.png" alt="">
+                </div>
+                <div class="Balance">999999</div>
+                <div class="Balance-name">(BBB余额)</div>
+            </div>
+        </div>
+        <div>
+            <div class="exchange">
+                <div class="exchange-name">接收地址</div>
+                <input type="number" placeholder="请输入BBB地址" maxlength="10">
+                <div class="sao-img">
+                    <img src="../icon/扫一扫2@2x.png" alt="">
+                </div>
+            </div>
+            <div class="exchange">
+                <div class="exchange-name">提现数量</div>
+                <input type="number" placeholder="请输入提现数量" maxlength="10">
+            </div>
+            <div class="exchange">
+                <div class="exchange-name">支付密码</div>
+                <input type="number" placeholder="请输入支付密码" maxlength="10">
+                <div class="forget">
+                    忘记密码？
+                </div>
+            </div>
+            <div class="exchange">
+                <div class="exchange-name">手续费</div>
+                <input type="number" placeholder="0.9595BBB" maxlength="10">
+
+            </div>
+        </div>
+        <div class="bbb-desc">
+            手续费将在可用余额中扣除，余额不足将从提现金额中扣除
+        </div>
+        <div class="justify-btn">
+            <div class="btn">确认</div>
+        </div>
+    </div>
+    
+
+
+</body>
+</body>
+
+</html>

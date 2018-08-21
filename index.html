@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>商城</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/border.css">
+	<style type="text/css">
+		body {
+			background: #F2F2F2;
+			width: 100%;
+			height: 100%;
+
+		}
+
+		header {
+			width: 100%;
+			height: 1rem;
+			background: #33cccc;
+		}
+
+		.header-top {
+			margin-top: 0.2rem;
+			display: inline-flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			height: 0.6rem;
+		}
+
+		.mglr {
+			margin: 0 0.15rem;
+		}
+
+		.header-title {
+			color: white;
+			font-size: 0.36rem;
+		}
+
+		header img {
+			width: 0.4rem;
+		}
+
+		.nav {
+			height: 0.8rem;
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			background-color: #FFFFFF;
+		}
+
+		.nav-item {
+			height: 0.8rem;
+			font-size: 0.32rem;
+			line-height: 0.8rem;
+			width: 100%;
+			text-align: center;
+		}
+
+		.nav-selected {
+			color: #f50404;
+			border-bottom: 3px solid #f50404;
+			box-sizing: border-box;
+		}
+
+		.ad-img {
+			width: 100%;
+			height: 2.4rem;
+			background: #25A4BB;
+			margin-top: 0.17rem;
+		}
+
+		.product-box {
+			width: 100%;
+			margin-top: 0.17rem;
+			background: #fff;
+			margin-bottom: 0.96rem;
+		}
+
+		.product-item {
+			width: 100%;
+			height: 3.2rem;
+			background-color: #ffffff;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.product-img {
+			float: left;
+			width: 2.4rem;
+			margin-top: 0.4rem;
+			margin-left: 0.4rem;
+		}
+
+		.product-info {
+			float: right;
+			width: 52%;
+			margin: 0.4rem 0;
+			height: 2.4rem;
+			position: relative;
+		}
+
+		.product-title {
+			font-size: 0.32rem;
+			letter-spacing: 2px;
+		}
+
+		.product-currency {
+			margin-top: 0.2rem;
+			font-size: 0.28rem;
+			letter-spacing: 2px;
+		}
+
+		.product-price {
+			font-size: 0.28rem;
+			margin-top: 0.2rem;
+			color: #f6d600;
+			letter-spacing: 2px;
+		}
+
+		.product-btn {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+
+		.category-btn {
+			width: 0.8rem;
+			height: 0.4rem;
+			background-color: #ffffff;
+			border-radius: 6px;
+			border: solid 1px #000000;
+			font-size: 0.28rem;
+			line-height: 0.4rem;
+			text-align: center;
+			margin-top: 0.2rem;
+			letter-spacing: 2px;
+			padding-left: 2px;
+		}
+
+		.buy-btn {
+			width: 1.6rem;
+			height: 0.6rem;
+			background-color: #ffffff;
+			border-radius: 30px;
+			border: solid 1px #f00606;
+			letter-spacing: 2px;
+			color: #f00606;
+			font-size: 0.28rem;
+			line-height: 0.6rem;
+			text-align: center;
+			float: right;
+			margin-right: 0.4rem;
+			padding-left: 2px;
+		}
+
+		.right-icon {
+			position: absolute;
+			top: 0;
+			right: 0.4rem;
+			font-size: 0.4rem;
+		}
+
+		footer {
+			position: fixed;
+			bottom: 0px;
+			height: 0.97rem;
+			width: 100%;
+			border-top: 1px solid #ccc;
+			text-align: center;
+			z-index: 99;
+			background-color: #fff;
+		}
+
+		.footer-item {
+			float: left;
+			width: 25%;
+			height: 100%;
+			padding-top: 0.12rem;
+		}
+
+		.footer-item img {
+			width: 0.36rem;
+			height: 0.36rem;
+			margin-bottom: 0.1rem;
+		}
+	</style>
+
+	<body>
+		<header>
+			<div class="header-top">
+				<div class="mglr">
+					<img src="icon/扫一扫图标@2x.png" alt="">
+				</div>
+				<div class="header-input">
+					<span class="header-title">碧波商城</span>
+				</div>
+				<div class="mglr">
+					<img src="icon/搜索@2x.png" alt="">
+				</div>
+			</div>
+		</header>
+		<div class="ad-img">
+		</div>
+		<div class="nav">
+			<span class="nav-item nav-selected">首页</span>
+			<span class="nav-item">手机</span>
+			<span class="nav-item">家具</span>
+			<span class="nav-item">数码</span>
+			<span class="nav-item">服装</span>
+			<span class="nav-item">食品</span>
+			<span class="nav-item">运动</span>
+		</div>
+
+		<div class="product-box">
+			<ul class="product-list">
+				<a href="shop/shop-detail.html">
+					<li class="product-item">
+						<img src="icon/水壶.jpg" alt="" class="product-img" />
+						<div class="product-info">
+							<p class="product-title">玻璃壶身烧水壶</p>
+							<p class="product-currency">货币价格</p>
+							<p class="product-price">1.1234BBB</p>
+							<div class="product-btn">
+								<button class="category-btn">电器</button>
+								<button class="buy-btn">立即购买</button>
+							</div>
+							<span class="iconfont right-icon">&#xe602;</span>
+						</div>
+					</li>
+				</a>
+				<li class="product-item">
+					<img src="icon/水壶.jpg" alt="" class="product-img" />
+					<div class="product-info">
+						<p class="product-title">玻璃壶身烧水壶</p>
+						<p class="product-currency">货币价格</p>
+						<p class="product-price">1.1234BBB</p>
+						<div class="product-btn">
+							<button class="category-btn">电器</button>
+							<button class="buy-btn">立即购买</button>
+						</div>
+						<span class="iconfont right-icon">&#xe602;</span>
+					</div>
+				</li>
+				<li class="product-item">
+					<img src="icon/水壶.jpg" alt="" class="product-img" />
+					<div class="product-info">
+						<p class="product-title">玻璃壶身烧水壶</p>
+						<p class="product-currency">货币价格</p>
+						<p class="product-price">1.1234BBB</p>
+						<div class="product-btn">
+							<button class="category-btn">电器</button>
+							<button class="buy-btn">立即购买</button>
+						</div>
+						<span class="iconfont right-icon">&#xe602;</span>
+					</div>
+				</li>
+				<li class="product-item">
+					<img src="icon/水壶.jpg" alt="" class="product-img" />
+					<div class="product-info">
+						<p class="product-title">玻璃壶身烧水壶</p>
+						<p class="product-currency">货币价格</p>
+						<p class="product-price">1.1234BBB</p>
+						<div class="product-btn">
+							<button class="category-btn">电器</button>
+							<button class="buy-btn">立即购买</button>
+						</div>
+						<span class="iconfont right-icon">&#xe602;</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<footer>
+			<a href="../shop/shop.html">
+				<div class="footer-item">
+					<img src="icon/商城剪影拷贝@2x.png" alt="">
+					<p>商城</p>
+				</div>
+			</a>
+			<a href="wealth/wealth.html">
+				<div class="footer-item">
+					<img src="icon/财富线性拷贝@2x.png" alt="">
+					<p>财富</p>
+				</div>
+			</a>
+			<a href="social/社交.html">
+				<div class="footer-item">
+					<img src="icon/社交线性拷贝@2x.png" alt="">
+					<p>社交</p>
+				</div>
+			</a>
+			<a href="my/我.html">
+			<div class="footer-item">
+				<img src="icon/我的线性拷贝@2x.png" alt="">
+				<p>我</p>
+			</div>
+			</a>
+		</footer>
+	</body>
+
+</html>

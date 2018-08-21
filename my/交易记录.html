@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+
+
+    <title>Document</title>
+    <style>
+        .body-content {
+            background: #F2F2F2;
+            height: 100vh;
+            width: 100%;
+            color: #25212B;
+
+        }
+
+        /* 标题部分 */
+
+        .header {
+            height: 0.88rem;
+            width: 100%;
+            background: #33cccc;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .header-left {
+            min-width: 1rem;
+            line-height: 0.6rem;
+            padding-left: 0.2rem;
+            text-align: left;
+        }
+
+        .back {
+            font-size: 0.4rem;
+        }
+
+        .header-content {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            font-size: 0.34rem;
+        }
+
+        .header-right {
+            text-align: right;
+            min-width: 1rem;
+        }
+
+
+        /* 内容部分 */
+
+        .margin-top {
+            margin-top: 0.16rem
+        }
+
+
+        .item-li-header {
+            display: inline-flex;
+            height: 1.2rem;
+            width: 100%;
+            background: #fff;
+            font-size: .32rem;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .item-time {
+            width: 2.2rem;
+            padding-left: .2rem;
+        }
+
+        .border-li {
+            width: .02rem;
+            height: .8rem;
+            background: #ccc;
+        }
+
+        .item-methods {
+            flex: 1;
+            padding-left: 0.2rem;
+        }
+
+        .item-get {
+            padding-right: 0.2rem;
+        }
+
+        .item-time-number {
+            width: 2.2rem;
+            line-height: 0.4rem;
+            color: #ccc;
+            padding-left: .2rem;
+        }
+
+        .item-way-methods {
+            flex: 1;
+            padding-left: 0.2rem;
+            color: #bbb;
+
+        }
+
+        .item-money {
+            padding-right: 0.2rem;
+            color: #ff6600;
+        }
+
+
+
+
+
+        .item-li {
+            display: inline-flex;
+            height: .8rem;
+            width: 100%;
+            padding-left: 0.2rem;
+            align-items: center;
+            background: #fff;
+            border-bottom: 0.02rem solid #CCCCCC;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body-content">
+        <div class="header">
+            <a href="javascript:history.back();">
+            <div class="header-left">
+                <span class="iconfont back">&#xe600;</span>
+            </div>
+            </a>
+            <div class="header-content">
+                交易记录
+            </div>
+            <div class="header-right">
+            </div>
+        </div>
+        <div>
+            <div class="margin-top ">
+                <ul>
+                    <li class="item-li-header">
+                        <div class="item-time">时间</div>
+                        <div class="border-li"></div>
+                        <div class="item-methods">方式</div>
+                        <div class="item-get">获得</div>
+                    </li>
+                    <li class="item-li-header">
+                        <div class="item-time-number">2018-08-02 14:14:13</div>
+                        <div class="border-li"></div>
+                        <div class="item-way-methods">游戏</div>
+                        <div class="item-money">0.000072CNY</div>
+                    </li>
+                    <li class="item-li-header">
+                        <div class="item-time-number">2018-08-02 14:14:13</div>
+                        <div class="border-li"></div>
+                        <div class="item-way-methods">游戏</div>
+                        <div class="item-money">0.000072CNY</div>
+                    </li>
+                    <li class="item-li-header">
+                        <div class="item-time-number">2018-08-02 14:14:13</div>
+                        <div class="border-li"></div>
+                        <div class="item-way-methods">任务</div>
+                        <div class="item-money">0.000072CNY</div>
+                    </li>
+                    <li class="item-li-header">
+                        <div class="item-time-number">2018-08-02 14:14:13</div>
+                        <div class="border-li"></div>
+                        <div class="item-way-methods">任务</div>
+                        <div class="item-money">0.000072CNY</div>
+                    </li>
+                    <li class="item-li-header">
+                        <div class="item-time-number">2018-08-02 14:14:13</div>
+                        <div class="border-li"></div>
+                        <div class="item-way-methods">游戏</div>
+                        <div class="item-money">0.000072CNY</div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/mui.min.js "></script>
+    <script src="js/update.js " type="text/javascript " charset="utf-8 "></script>
+</body>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>个性签名</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="../css/iconfont.css">
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/border.css">
+		<style type="text/css">
+			body {
+				background: #F2F2F2;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.header {
+				height: 0.88rem;
+				width: 100%;
+				background: #33cccc;
+				display: flex;
+				color: #fff;
+				align-items: center;
+			}
+			
+			.header-left {
+				min-width: 1rem;
+				line-height: 0.6rem;
+				padding-left: 0.2rem;
+				text-align: left;
+			}
+			
+			.back {
+				font-size: 0.4rem;
+			}
+			
+			.header-content {
+				flex: 1;
+				overflow: hidden;
+				display: flex;
+				justify-content: center;
+				font-size: 0.34rem;
+			}
+			
+			.header-right {
+				text-align: right;
+				min-width: 1rem;
+			}
+			
+			.save {
+				font-size: 0.28rem;
+				padding-right: 0.2rem;
+			}
+			
+			textarea::-webkit-input-placeholder {
+				/* WebKit browsers */
+				opacity: 0.3;
+				padding: 0 0.2rem;
+			}
+			
+			textarea:-moz-placeholder {
+				/* Mozilla Firefox 4 to 18 */
+				opacity: 0.3;
+				padding: 0 0.2rem;
+			}
+			
+			textarea::-moz-placeholder {
+				/* Mozilla Firefox 19+ */
+				opacity: 0.3;
+				padding: 0 0.2rem;
+			}
+			
+			textarea:-ms-input-placeholder {
+				/* Internet Explorer 10+ */
+				opacity: 0.3;
+				padding: 0 0.2rem;
+			}
+			
+			.textarea-box {
+				position: relative;
+				margin-top: 0.2rem;
+				background: #FFFFFF;
+				height: 2rem;
+			}
+			
+			.nick-textarea {
+				width: 100%;
+				font-size: 0.32rem;
+				height: 1.5rem;
+				resize: none;
+			}
+			
+			.word-count {
+				font-family: PingFang-SC-Medium;
+				font-size: 0.32rem;
+				opacity: 0.3;
+				float: right;
+				margin-right: 0.2rem;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header">
+			<a href="javascript:history.back();">
+				<div class="header-left">
+					<span class="iconfont back">&#xe600;</span>
+				</div>
+			</a>
+			<div class="header-content">
+				个性签名
+			</div>
+			<div class="header-right">
+				<span class="save">保存</span>
+			</div>
+		</div>
+		<div class="textarea-box">
+			<textarea class="nick-textarea" placeholder="想说的内容..." maxlength="30" rows="3"></textarea>
+			<span class="word-count">0/30</span>
+		</div>
+
+	</body>
+
+</html>

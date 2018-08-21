@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>商城详情</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/border.css">
+	<style type="text/css">
+		body {
+			background: #F2F2F2;
+		}
+
+		header {
+			width: 100%;
+			height: 1rem;
+			background: #33cccc;
+		}
+
+		.back {
+			font-size: 0.4rem;
+			color: #fff;
+		}
+
+		.header-top {
+			margin-top: 0.2rem;
+			display: inline-flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			height: 0.6rem;
+		}
+
+		.mglr {
+			margin: 0 0.15rem;
+			width: 35%;
+		}
+
+		.top-right img {
+			float: right;
+		}
+
+		.mglr img {
+			max-height: 0.36rem;
+			max-width: 0.36rem;
+		}
+
+		.share-btn {
+			margin-right: 0.2rem;
+		}
+
+		.header-title {
+			color: white;
+			font-size: 0.36rem;
+		}
+
+		header img {
+			width: 0.4rem;
+		}
+
+		.ad-img {
+			width: 100%;
+			height: 2.4rem;
+			background: #25A4BB;
+			margin-top: 0.17rem;
+		}
+
+
+		.product-btn-box {
+			float: right;
+			margin-top: 0.4rem;
+			margin-right: 0.2rem;
+			opacity: 0.3;
+		}
+
+		.product-btn {
+			float: left;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-left: 0.25rem;
+		}
+
+		.product-btn img {
+			max-height: 0.36rem;
+			max-width: 0.36rem;
+			margin-bottom: 0.2rem;
+		}
+
+		.btn-box {
+			width: 100%;
+			height: 1rem;
+			background: #fff;
+			border-bottom: 1px solid #ccc;
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.btn-item {
+			height: 1rem;
+		}
+
+		.btn-item img {
+			max-width: 0.6rem;
+			max-height: 0.6rem;
+			margin-top: 0.2rem;
+		}
+
+		.nav-item {
+			height: 0.8rem;
+			font-size: 0.32rem;
+			line-height: 0.8rem;
+			width: 100%;
+			text-align: center;
+		}
+
+		.tab-box {
+			height: 0.8rem;
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			background-color: #FFFFFF;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.tab-item {
+			height: 0.8rem;
+			font-size: 0.36rem;
+			line-height: 0.8rem;
+			width: 100%;
+			text-align: center;
+			opacity: 0.3;
+		}
+
+		.tab-selected {
+			color: #000000;
+			opacity: 1;
+			border-bottom: 3px solid #33cccc;
+			box-sizing: border-box;
+		}
+
+		.product-box {
+			width: 100%;
+			margin-top: 0.17rem;
+			background: #fff;
+			height: 1.6rem;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.product-info {
+			float: left;
+			width: 52%;
+			margin-left: 0.2rem;
+			margin-top: 0.4rem;
+			position: relative;
+		}
+
+		.product-title {
+			font-size: 0.32rem;
+			letter-spacing: 2px;
+		}
+
+		.product-currency {
+			margin-top: 0.2rem;
+			font-size: 0.28rem;
+			letter-spacing: 2px;
+		}
+
+		.product-price {
+			font-size: 0.28rem;
+			margin-top: 0.2rem;
+			color: #f6d600;
+			letter-spacing: 2px;
+		}
+
+		.product-details {
+			background: #fff;
+			width: 100%;
+			padding: 0 0.4rem;
+			padding-top: 0.2rem;
+			font-size: 0.32rem;
+		}
+
+
+		footer {
+			position: fixed;
+			bottom: 0px;
+			height: 0.97rem;
+			width: 100%;
+			border-top: 1px solid #ccc;
+			background-color: #f96a6a;
+			text-align: center;
+			z-index: 99;
+		}
+
+		.footer-text {
+			font-size: 0.36rem;
+			color: #fff;
+			letter-spacing: 2px;
+			padding-left: 2px;
+			line-height: 0.97rem;
+		}
+	</style>
+
+	<body>
+		<header>
+			<div class="header-top">
+				<a href="javascript:history.back();">
+				<div class="mglr">
+					<span class="iconfont back">&#xe600;</span>
+				</div>
+				</a>
+				<div class="header-input">
+					<span class="header-title">详情</span>
+				</div>
+				<div class="mglr top-right">
+					<img src="../icon/用户资料@2x.png" alt="">
+					<img class="share-btn" src="../icon/分享@2x.png" alt="">
+				</div>
+			</div>
+		</header>
+		<div class="ad-img">
+
+		</div>
+		<div class="product-box">
+			<div class="product-info">
+				<p class="product-title">玻璃壶身烧水壶</p>
+				<p class="product-currency">货币价格
+					<span class="product-price">1.1234BBB</span>
+				</p>
+			</div>
+			<div class="product-btn-box">
+				<div class="product-btn">
+					<img src="../icon/喜欢@2x.png" />
+					<span>5</span>
+				</div>
+				<div class="product-btn">
+					<img src="../icon/关注1@2x.png" />
+					<span>5</span>
+				</div>
+				<div class="product-btn">
+					<img src="../icon/点赞@2x.png" />
+					<span>5</span>
+				</div>
+			</div>
+		</div>
+		<div class="btn-box">
+			<span class="btn-item">
+				<img src="../icon/电话@2x.png" alt="" />
+			</span>
+			<span class="btn-item">
+				<img src="../icon/对话@2x.png" alt="" />
+			</span>
+			<span class="btn-item">
+				<img src="../icon/关注@2x.png" alt="" />
+			</span>
+			<span class="btn-item">
+				<img src="../icon/位置2@2x.png" alt="" />
+			</span>
+		</div>
+		<div class="tab-box">
+			<span class="tab-item tab-selected">详情介绍</span>
+			<span class="tab-item">评论(
+				<i>3</i>)</span>
+		</div>
+		<div class="product-details">
+			详情内容
+		</div>
+		<footer>
+			<p class="footer-text">立即购买</p>
+		</footer>
+	</body>
+
+</html>

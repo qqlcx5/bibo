@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Document</title>
+    <style>
+        .body-content {
+            height: 100vh;
+            width: 100%;
+            color: #25212B;
+            background: #fff;
+        }
+
+        /* 标题部分 */
+
+        .header {
+            height: 0.88rem;
+            width: 100%;
+            background: #33cccc;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .header-left {
+            min-width: 1rem;
+            line-height: 0.6rem;
+            padding-left: 0.2rem;
+            text-align: left;
+        }
+
+        .back {
+            font-size: 0.4rem;
+        }
+
+        .header-content {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            font-size: 0.34rem;
+        }
+
+        .header-right {
+            text-align: right;
+            min-width: 1rem;
+        }
+
+        .upicon {
+            font-size: 0.4rem;
+            padding-right: 0.2rem;
+
+        }
+
+        /* 内容部分 */
+
+        .send-message {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 2.8rem;
+            height: 0;
+            padding-bottom: 1rem;
+            background: #ccc;
+        }
+
+        .bottom {
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 0;
+            padding-bottom: 50%;
+            background: #E1E1E1;
+        }
+
+        .icon-item {
+            float: left;
+            width: 25%;
+            padding-bottom: 25%;
+            position: relative;
+        }
+
+        .icon-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0.6rem;
+            box-sizing: border-box;
+            padding: 0.3rem;
+        }
+
+        .img-content {
+            display: block;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .keywords {
+            color: #212121;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 0.6rem;
+            line-height: 0.44rem;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="body-content">
+        <div class="header">
+            <a href="javascript:history.back();">
+                <div class="header-left">
+                    <span class="iconfont back">&#xe600;</span>
+                </div>
+            </a>
+            <div class="header-content">
+                资料设置
+            </div>
+            <div class="header-right">
+
+                <span class="iconfont upicon">&#xe671;</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="send-message">
+        <div class="send-message-item">
+            <img class="item-img" src="icon/语音@2x.png" alt="">
+        </div>
+        <div class="send-message-item">
+            <img class="item-img" src="icon/语音@2x.png" alt="">
+        </div>
+
+        <div>
+            <input type="text">
+        </div>
+        <div class="send-message-item">
+            <img class="item-img" src="icon/语音@2x.png" alt="">
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="bottom-bottom">
+            <div class="icon-item">
+                <div class="icon-img">
+                    <img class="img-content" src="icon/照片@2x.png" alt="">
+                </div>
+                <div class="keywords">照片
+
+                </div>
+            </div>
+            <div class="icon-item">
+                <div class="icon-img">
+                    <img class="img-content" src="icon/相机@2x.png" alt="">
+                </div>
+                <div class="keywords">相机
+
+                </div>
+            </div>
+            <div class="icon-item">
+                <div class="icon-img">
+                    <img class="img-content" src="icon/小视屏@2x.png" alt="">
+                </div>
+                <div class="keywords">小视屏
+
+                </div>
+            </div>
+            <div class="icon-item">
+                <div class="icon-img">
+                    <img class="img-content" src="icon/视屏聊天@2x.png" alt="">
+                </div>
+                <div class="keywords">视屏聊天
+
+                </div>
+            </div>
+            <div class="icon-item">
+                <div class="icon-img">
+                    <img class="img-content" src="icon/转币@2x.png" alt="">
+                </div>
+                <div class="keywords">转币
+
+                </div>
+            </div>
+            <div class="icon-item">
+                <div class="icon-img">
+                    <img class="img-content" src="icon/发币@2x.png" alt="">
+                </div>
+                <div class="keywords">发币
+
+                </div>
+            </div>
+            <div class="icon-item">
+                <div class="icon-img">
+                    <img class="img-content" src="icon/收藏@2x.png" alt="">
+                </div>
+                <div class="keywords">收藏
+
+                </div>
+            </div>
+            <div class="icon-item">
+                <div class="icon-img">
+                    <img class="img-content" src="icon/位置@2x.png" alt="">
+                </div>
+                <div class="keywords">收藏
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="js/mui.min.js "></script>
+    <script src="js/update.js " type="text/javascript " charset="utf-8 "></script>
+</body>
+</body>
+
+</html>
