@@ -38,26 +38,28 @@
 
         .header-content-item {
             display: flex;
-            min-width: 3.08rem;
+            min-width: 3rem;
             height: 0.6rem;
             background: #33CCCC;
             border-radius: 0.12rem;
             overflow: hidden;
-            border: 0.02rem solid #fff;
+            border: 0.04rem solid #fff;
             align-items: center;
+            box-sizing: border-box;
         }
 
         .header-content-item-title {
             display: flex;
             justify-content: center;
             color: #fff;
-            min-width: 1.54rem;
+            min-width: 1.5rem;
             height: 0.6rem;
             align-items: center;
             font-size: 0.36rem;
+            box-sizing: border-box;
         }
 
-        .Selected {
+        .selected {
             background: #fff;
             color: #33CCCC;
         }
@@ -163,7 +165,7 @@
                 <a href="./social.html">
                     <div class="header-content-item-title ">聊天</div>
                 </a>
-                <div class="header-content-item-title Selected">朋友</div>
+                <div class="header-content-item-title selected">朋友</div>
             </div>
         </div>
         <div class="header-right">
@@ -234,6 +236,7 @@
 
         </ul>
     </div>
-<script src="../js/mui.min.js"></script></body>
+    <script src="../js/mui.min.js"></script>
+</body>
 
 </html>

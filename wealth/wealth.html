@@ -198,6 +198,7 @@
             justify-content: space-around;
             margin-bottom: 1rem;
         }
+
         .task-item {
             width: 3rem;
             height: 1.76rem;
@@ -232,48 +233,78 @@
             height: .51rem;
         }
 
+        .footer-item p {
+            color: #000000;
+        }
+
+        .footer-item .colorBlue {
+            color: #3cc;
+        }
     </style>
 </head>
 
 <body>
-<div class="header">
-    <div class="header-title">
-        我的财富
+    <div class="header">
+        <div class="header-title">
+            我的财富
+        </div>
+        <div class="header-info">
+            <p>总资产</p>
+            <p>9999999</p>
+            <p>CNY</p>
+        </div>
     </div>
-    <div class="header-info">
-        <p>总资产</p>
-        <p>9999999</p>
-        <p>CNY</p>
-    </div>
-</div>
-<div class="icon-box mgbot">
-    <div class="icon-info">
-        <div class="icon-item">
-            <div class="icon-item-top">
-                <img src="../icon/duihuanjilu@2x.png" alt="">
+    <div class="icon-box mgbot">
+        <div class="icon-info">
+            <div class="icon-item">
+                <div class="icon-item-top">
+                    <img src="../icon/duihuanjilu@2x.png" alt="">
+                </div>
+                <div class="icon-item-bottom">兑换记录</div>
             </div>
-            <div class="icon-item-bottom">兑换记录</div>
-        </div>
-        <div class="border-li"></div>
-        <div class="icon-item">
-            <div class="icon-item-top">
-                <img src="../icon/chongbijilu@2x.png" alt="">
+            <div class="border-li"></div>
+            <div class="icon-item">
+                <div class="icon-item-top">
+                    <img src="../icon/chongbijilu@2x.png" alt="">
+                </div>
+                <div class="icon-item-bottom">充币记录</div>
             </div>
-            <div class="icon-item-bottom">充币记录</div>
-        </div>
-        <div class="border-li"></div>
-        <div class="icon-item">
-            <div class="icon-item-top">
-                <img src="../icon/tibijilu@2x.png" alt="">
+            <div class="border-li"></div>
+            <div class="icon-item">
+                <div class="icon-item-top">
+                    <img src="../icon/tibijilu@2x.png" alt="">
+                </div>
+                <div class="icon-item-bottom">提币记录</div>
             </div>
-            <div class="icon-item-bottom">提币记录</div>
-        </div>
 
 
+        </div>
     </div>
-</div>
-<div>
-    <a href="wealth-info.html">
+    <div>
+        <a href="wealth-info.html">
+            <div class="list">
+                <div class="list-img mgl">
+                    <img src="../icon/BBB@2x.png" alt="">
+                </div>
+                <div class="list-title">
+                    <div class="list-item  mgl">
+                        <div class="list-name">BBB</div>
+                        <div class="list-desc">(BiBoBi)</div>
+                    </div>
+                </div>
+                <div class="list-money">
+                    <div class="list-cny">
+                        行情价：0.0092 CNY
+                    </div>
+                    <div>
+                        个数：100
+                    </div>
+                </div>
+                <div class="upicon">
+                    <span class="iconfont up">&#xe602;</span>
+                </div>
+            </div>
+        </a>
         <div class="list">
             <div class="list-img mgl">
                 <img src="../icon/BBB@2x.png" alt="">
@@ -296,97 +327,75 @@
                 <span class="iconfont up">&#xe602;</span>
             </div>
         </div>
-    </a>
-    <div class="list">
-        <div class="list-img mgl">
-            <img src="../icon/BBB@2x.png" alt="">
-        </div>
-        <div class="list-title">
-            <div class="list-item  mgl">
-                <div class="list-name">BBB</div>
-                <div class="list-desc">(BiBoBi)</div>
+        <div class="list">
+            <div class="list-img mgl">
+                <img src="../icon/BBB@2x.png" alt="">
+            </div>
+            <div class="list-title">
+                <div class="list-item  mgl">
+                    <div class="list-name">BBB</div>
+                    <div class="list-desc">(BiBoBi)</div>
+                </div>
+            </div>
+            <div class="list-money">
+                <div class="list-cny">
+                    行情价：0.0092 CNY
+                </div>
+                <div>
+                    个数：100
+                </div>
+            </div>
+            <div class="upicon">
+                <span class="iconfont up">&#xe602;</span>
             </div>
         </div>
-        <div class="list-money">
-            <div class="list-cny">
-                行情价：0.0092 CNY
+    </div>
+    <div class="task">
+        <a href="wealth-renwuzhengbi.html">
+            <div class="task-item">
+                <div>
+                    <img src="../icon/renwuzhuanbi@2x.png" alt="">
+                </div>
+                任务赚币
             </div>
+        </a>
+        <div class="task-item">
             <div>
-                个数：100
+                <img src="../icon/youxizhuanbi@2x.png" alt="">
             </div>
+            游戏赚币
         </div>
-        <div class="upicon">
-            <span class="iconfont up">&#xe602;</span>
-        </div>
-    </div>
-    <div class="list">
-        <div class="list-img mgl">
-            <img src="../icon/BBB@2x.png" alt="">
-        </div>
-        <div class="list-title">
-            <div class="list-item  mgl">
-                <div class="list-name">BBB</div>
-                <div class="list-desc">(BiBoBi)</div>
-            </div>
-        </div>
-        <div class="list-money">
-            <div class="list-cny">
-                行情价：0.0092 CNY
-            </div>
-            <div>
-                个数：100
-            </div>
-        </div>
-        <div class="upicon">
-            <span class="iconfont up">&#xe602;</span>
-        </div>
-    </div>
-</div>
-<div class="task">
-    <a href="wealth-renwuzhengbi.html">
-    <div class="task-item">
-        <div>
-            <img src="../icon/renwuzhuanbi@2x.png" alt="">
-        </div>
-        任务赚币
-    </div>
-    </a>
-    <div class="task-item">
-        <div>
-            <img src="../icon/youxizhuanbi@2x.png" alt="">
-        </div>
-        游戏赚币
-    </div>
 
 
-</div>
-<footer>
-    <a href="../index.html">
-        <div class="footer-item">
-            <img src="../icon/shangchengxianxing@2x.png" alt="">
-            <p>商城</p>
-        </div>
-    </a>
-    <a href="../wealth/wealth.html">
-        <div class="footer-item">
-            <img src="../icon/caifujianying@2x.png" alt="">
-            <p class="footer-tab-selected">财富</p>
-        </div>
-    </a>
-    <a href="../social/social.html">
-        <div class="footer-item">
-            <img src="../icon/shejiaoxianxing@2x.png" alt="">
-            <p>社交</p>
-        </div>
-    </a>
-    <a href="../my/personalInfo-my.html">
-        <div class="footer-item">
-            <img src="../icon/wodexianxing@2x.png" alt="">
-            <p>我</p>
-        </div>
-    </a>
-</footer>
+    </div>
+    <footer>
+        <a href="../index.html">
+            <div class="footer-item">
+                <img src="../icon/shangchengxianxing@2x.png" alt="">
+                <p>商城</p>
+            </div>
+        </a>
+        <a href="../wealth/wealth.html">
+            <div class="footer-item">
+                <img src="../icon/caifujianying@2x.png" alt="">
+                <p class="colorBlue">财富</p>
+            </div>
+        </a>
+        <a href="../social/social.html">
+            <div class="footer-item">
+                <img src="../icon/shejiaoxianxing@2x.png" alt="">
+                <p>社交</p>
+            </div>
+        </a>
+        <a href="../my/personalInfo-my.html">
+            <div class="footer-item">
+                <img src="../icon/wodexianxing@2x.png" alt="">
+                <p>我</p>
+            </div>
+        </a>
+    </footer>
 
-<script src="../js/mui.min.js"></script></body>
+    <script src="../js/mui.min.js"></script>
+</body>
 
 </html>

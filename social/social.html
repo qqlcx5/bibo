@@ -37,26 +37,28 @@
 
 		.header-content-item {
 			display: flex;
-			min-width: 3.08rem;
+			min-width: 3rem;
 			height: 0.6rem;
 			background: #33CCCC;
 			border-radius: 0.12rem;
 			overflow: hidden;
-			border: 0.02rem solid #fff;
+			border: 0.04rem solid #fff;
 			align-items: center;
+			box-sizing: border-box;
 		}
 
 		.header-content-item-title {
 			display: flex;
 			justify-content: center;
 			color: #fff;
-			min-width: 1.54rem;
+			width: 1.5rem;
 			height: 0.6rem;
 			align-items: center;
 			font-size: 0.36rem;
+			box-sizing: border-box;
 		}
 
-		.Selected {
+		.selected {
 			background: #fff;
 			color: #33CCCC;
 		}
@@ -158,6 +160,7 @@
 			border-top: 1px solid #ccc;
 			text-align: center;
 			z-index: 99;
+			color: #000;
 			background-color: #fff;
 		}
 
@@ -173,19 +176,27 @@
 			height: 0.36rem;
 			margin-bottom: 0.1rem
 		}
+
+		.footer-item p {
+			color: #000;
+		}
+
+		.footer-item .colorBlue {
+			color: #3cc;
+		}
 	</style>
 </head>
 
 <body>
 	<div class="header">
 		<a href="./social-circle.html">
-		<div class="header-left">
-			社交圈
-		</div></a>
+			<div class="header-left">
+				社交圈
+			</div>
+		</a>
 		<div class="header-content">
 			<div class="header-content-item">
-
-				<div class="header-content-item-title Selected">聊天</div>
+				<div class="header-content-item-title selected">聊天</div>
 				<a href="./social-friend.html">
 					<div class="header-content-item-title ">朋友</div>
 				</a>
@@ -306,7 +317,7 @@
 		<a href="../social/social.html">
 			<div class="footer-item">
 				<img src="../icon/shejiaojianying@2x.png" alt="">
-				<p>社交</p>
+				<p class="colorBlue">社交</p>
 			</div>
 		</a>
 		<a href="../my/personalInfo-my.html">
@@ -316,6 +327,7 @@
 			</div>
 		</a>
 	</footer>
-<script src="../js/mui.min.js"></script></body>
+	<script src="../js/mui.min.js"></script>
+</body>
 
 </html>
