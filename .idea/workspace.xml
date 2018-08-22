@@ -2,99 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c8db7d-8e58-47aa-af35-4bcf402d8db4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/交易记录@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/jiaoyijilu@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/任务赚币@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/renwuzhuanbi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/位置2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/weizhi2@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/位置@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/weizhi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/充币记录@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/chongbijilu@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/兑换记录@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/duihuanjilu@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/关注1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/gaunzhu1@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/关注@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/guanzhu@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/分享@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/fenxiang@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/加号@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/jiahao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/发币@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/fabi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/商城剪影拷贝@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/shangchengjianying@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/商城线性拷贝@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/shangchengxianxing@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/喜欢@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/xihuan@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/大X@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/daX@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/对话@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/duihua@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/小视屏@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/xiaoshiping@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/币商设置@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/bishangshezhi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/开店设置@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/kaidianshezhi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/微信公众号@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/weixingongzhonghao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/微信图标@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/weixintubiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/微笑@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/weixiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/我的剪影拷贝@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/wodejianying@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/我的线性拷贝@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/wodexianxing@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/手机图标@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/shoujitubiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/扫一扫2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/saoyisao2@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/扫一扫图标@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/saoyisaotubiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/提币记录@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/tibijilu@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/搜索@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/sousuo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/搜索图标@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/sousuotubiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/支付宝图标@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/zhifubaotubiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/收藏@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/shoucang@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/水壶.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/icon/shuihu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/浏览@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/liulan@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/添加图标@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/tianjiatubiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/游戏赚币@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/youxizhuanbi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/点赞@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/dianzan@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/照片@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/zhaopian@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/用户资料@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/yonghuziliao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/电话@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/dianhua@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/相机@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/xiangji@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/社交剪影拷贝@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/shejiaojianying@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/社交线性拷贝@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/shejiaoxianxing@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/系统设置@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/xitongshezhi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/群聊图标@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/qunliaotubiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/联系客服@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/lianxikefu@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/表情@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/biaoqing@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/视屏聊天@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/shipingliaotian@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/评论@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/pinglun@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/详细资料图标@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/xiangxiziliaotubiao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/语音@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/yuyin@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/财富剪影拷贝@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/caifujianying@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/财富线性拷贝@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/caifuxianxing@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/转币@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/zhuanbi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/锁@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon/suo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/忘记密码.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/forget-pwd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/注册.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/登录.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/个人资料-个性签名.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-sign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/个人资料-名字.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-name.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/个人资料-我的二维码.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-QRcode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/个人资料.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/交易记录.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-Record.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/地区.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-local.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/开店设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-shop-setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/性别.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-sex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/我.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-my.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/支付管理.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-pay-manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/消息通知.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-info-setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/用户资料.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-userInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/系统设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-system-settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/聊天背景.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-chat-bg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/语言设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-language-setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/账户管理.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-bill-manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/资料设置.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-notification.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/转币给朋友.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-Transfer-friends.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/shop-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/social/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/亚当·兰伯特.html" beforeDir="false" afterPath="$PROJECT_DIR$/social/social-chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/社交.html" beforeDir="false" afterPath="$PROJECT_DIR$/social/social.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/社区圈.html" beforeDir="false" afterPath="$PROJECT_DIR$/social/社区圈.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/社区圈详情.html" beforeDir="false" afterPath="$PROJECT_DIR$/social/社区圈详情.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/社区资料.html" beforeDir="false" afterPath="$PROJECT_DIR$/social/社区资料.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/聊天详情.html" beforeDir="false" afterPath="$PROJECT_DIR$/social/聊天详情.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth/wealth-Currency.html" beforeDir="false" afterPath="$PROJECT_DIR$/wealth/wealth-Currency.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/personalInfo-info-setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/my/personalInfo-info-setting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/聊天详情.html" beforeDir="false" afterPath="$PROJECT_DIR$/social/social-chatDetail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth/wealth-coin.html" beforeDir="false" afterPath="$PROJECT_DIR$/wealth/wealth-coin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth/wealth-exchange.html" beforeDir="false" afterPath="$PROJECT_DIR$/wealth/wealth-exchange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth/wealth-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/wealth/wealth-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth/wealth.html" beforeDir="false" afterPath="$PROJECT_DIR$/wealth/wealth.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -110,32 +21,32 @@
     <session id="-1400353874">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="31" />
+          <entry key="html" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="31" />
+          <entry key="HTML" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="513" />
+          <entry key="html" value="637" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="513" />
+          <entry key="HTML" value="637" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
@@ -144,29 +55,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my/personalInfo-my.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="243" selection-start-line="243" selection-end-line="243" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my/personalInfo-system-settings.html">
+        <entry file="file://$PROJECT_DIR$/social/social-friend.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my/personalInfo-info-setting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="189" column="20" lean-forward="true" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="20" />
+            <state relative-caret-position="596">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,7 +98,6 @@
       <list>
         <option value="$PROJECT_DIR$/wealth/我的财富.html" />
         <option value="$PROJECT_DIR$/wealth/wealth-info.html" />
-        <option value="$PROJECT_DIR$/wealth/wealth.html" />
         <option value="$PROJECT_DIR$/social/社区圈详情.html" />
         <option value="$PROJECT_DIR$/wealth/wealth-exchange.html" />
         <option value="$PROJECT_DIR$/wealth/wealth-Currency.html" />
@@ -212,13 +107,16 @@
         <option value="$PROJECT_DIR$/social/社交.html" />
         <option value="$PROJECT_DIR$/social/social.html" />
         <option value="$PROJECT_DIR$/social/亚当·兰伯特.html" />
-        <option value="$PROJECT_DIR$/my/personalInfo-info-setting.html" />
         <option value="$PROJECT_DIR$/my/personalInfo-userInfo.html" />
-        <option value="$PROJECT_DIR$/social/聊天详情.html" />
         <option value="$PROJECT_DIR$/my/personal-info-sign.html" />
         <option value="$PROJECT_DIR$/my/personalInfo.html" />
         <option value="$PROJECT_DIR$/my/personalInfo-my.html" />
         <option value="$PROJECT_DIR$/my/personalInfo-system-settings.html" />
+        <option value="$PROJECT_DIR$/my/personalInfo-info-setting.html" />
+        <option value="$PROJECT_DIR$/social/聊天详情.html" />
+        <option value="$PROJECT_DIR$/wealth/wealth.html" />
+        <option value="$PROJECT_DIR$/wealth/wealth-renwuzhengbi.html" />
+        <option value="$PROJECT_DIR$/social/social-friend.html" />
       </list>
     </option>
   </component>
@@ -229,8 +127,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
-    <option name="y" value="43" />
+    <option name="x" value="197" />
+    <option name="y" value="81" />
     <option name="width" value="1568" />
     <option name="height" value="929" />
   </component>
@@ -268,7 +166,7 @@
             <path>
               <item name="HTML5" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML5" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="social" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,14 +217,15 @@
       <workItem from="1534813063584" duration="1625000" />
       <workItem from="1534831551458" duration="7000" />
       <workItem from="1534831579148" duration="11097000" />
+      <workItem from="1534899404709" duration="4427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12729000" />
+    <option name="totallyTimeSpent" value="17156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="43" width="1568" height="929" extended-state="0" />
+    <frame x="197" y="81" width="1568" height="929" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21830066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -405,58 +304,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my/personalInfo-chat-bg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wealth/wealth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/shop-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="192" column="23" lean-forward="true" selection-start-line="192" selection-start-column="23" selection-end-line="192" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wealth/wealth-Currency.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="171" column="12" lean-forward="true" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/shop-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="215" column="16" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social/social.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/social/social-chat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="148" column="40" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,37 +325,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social/社区圈详情.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/social/社区资料.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my/personal-info-sign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="142" column="31" lean-forward="true" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social/聊天详情.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="136" column="40" lean-forward="true" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my/personalInfo-name.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/my/personal-info-sign.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -521,22 +345,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my/personalInfo-my.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="5103">
           <caret line="243" selection-start-line="243" selection-end-line="243" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my/personalInfo-info-setting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="189" column="20" lean-forward="true" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my/personalInfo-system-settings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
+        <state relative-caret-position="1197">
+          <caret line="134" column="40" lean-forward="true" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/personalInfo-info-setting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/personalInfo-chat-bg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/personalInfo-name.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/personalInfo-Transfer-friends.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/shop-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="215" column="16" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/社区圈详情.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="259" column="22" lean-forward="true" selection-start-line="259" selection-start-column="22" selection-end-line="259" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/social-chatDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wealth/wealth-Currency.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="170" column="12" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wealth/wealth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2276">
+          <caret line="334" column="30" lean-forward="true" selection-start-line="334" selection-start-column="30" selection-end-line="334" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/social.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="70" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wealth/wealth-renwuzhengbi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/social-friend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

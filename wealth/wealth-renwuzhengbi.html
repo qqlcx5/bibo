@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/border.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Document</title>
+    <style>
+        .header-bg {
+            width: 100%;
+            height: 55.55vw;
+            overflow: hidden;
+            position: relative;
+        }
+        .header-bg img {
+            width: 100%;
+        }
+        .header-bg .back {
+            position: absolute;
+            top: 0.3rem;
+            left: 0.3rem;
+            color: #fff;
+            font-size: 0.5rem;
+        }
+
+        .content-title {
+            width: 100%;
+            height: 0.8rem;
+
+            display: flex;
+            font-size: 0.36rem;
+            border-bottom: .02rem solid #cccccc;
+            overflow: hidden;
+        }
+
+        .content-title .select {
+            border-bottom: 0.06rem solid #33cccc;
+        }
+
+        .content-item {
+            width: 50%;
+            height: 0.8rem;
+            text-align: center;
+            line-height: 0.8rem;
+            box-sizing: border-box;
+        }
+
+        .task-list {
+            height: calc(100vh - 4.8rem);
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .task-item {
+            height: 1.6rem;
+            width: 100%;
+            border-bottom: 0.02rem solid #ccc;
+            display: inline-flex;
+            align-items: center;
+
+        }
+
+        .task-item img {
+            width: .8rem;
+            height: .8rem;
+            margin: 0 0.4rem;
+        }
+
+        .task-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 1.6rem;
+            justify-content: center;
+        }
+
+        .task-title {
+            height: .6rem;
+            font-size: .32rem;
+            line-height: .6rem;
+            color: #000000;
+        }
+
+        .task-desc {
+            height: .4rem;
+            font-size: .24rem;
+            line-height: .4rem;
+            color: #999;
+        }
+
+        .task-btn {
+            width: 2rem;
+            height: 1.6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .task-button {
+            width: 1.2rem;
+            height: 0.6rem;
+            background-color: #33cccc;
+            border-radius: 0.3rem;
+            font-size: 0.24rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-bg">
+        <img src="../icon/renwuzhenbi.png" alt="">
+        <a href="javascript:history.back();">
+        <span class="iconfont back">&#xe600;</span>
+        </a>
+    </div>
+
+    <div class="content-title">
+        <div class="content-item select">
+            每日任务
+        </div>
+        <div class="content-item">
+            成长任务
+        </div>
+    </div>
+    <div class="task-list">
+        <ul>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/qiandao.png" alt="">
+                </div>
+                <div class="task-content">
+                    <p class="task-title">每日签到</p>
+                    <p class="task-desc">每日签到后送0.012345CNY</p>
+                </div>
+                <div class="task-btn">
+                    <div class="task-button">去完成</div>
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/qiandao.png" alt="">
+                </div>
+                <div class="task-content">
+                    <p class="task-title">每日签到</p>
+                    <p class="task-desc">每日签到后送0.012345CNY</p>
+                </div>
+                <div class="task-btn">
+                    <div class="task-button">去完成</div>
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/qiandao.png" alt="">
+                </div>
+                <div class="task-content">
+                    <p class="task-title">每日签到</p>
+                    <p class="task-desc">每日签到后送0.012345CNY</p>
+                </div>
+                <div class="task-btn">
+                    <div class="task-button">去完成</div>
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/qiandao.png" alt="">
+                </div>
+                <div class="task-content">
+                    <p class="task-title">每日签到</p>
+                    <p class="task-desc">每日签到后送0.012345CNY</p>
+                </div>
+                <div class="task-btn">
+                    <div class="task-button">去完成</div>
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/qiandao.png" alt="">
+                </div>
+                <div class="task-content">
+                    <p class="task-title">每日签到</p>
+                    <p class="task-desc">每日签到后送0.012345CNY</p>
+                </div>
+                <div class="task-btn">
+                    <div class="task-button">去完成</div>
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/qiandao.png" alt="">
+                </div>
+                <div class="task-content">
+                    <p class="task-title">每日签到</p>
+                    <p class="task-desc">每日签到后送0.012345CNY</p>
+                </div>
+                <div class="task-btn">
+                    <div class="task-button">去完成</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

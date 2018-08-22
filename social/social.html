@@ -1,320 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>社交</title>
-		<link rel="stylesheet" href="../css/iconfont.css">
-		<link rel="stylesheet" href="../css/reset.css">
-		<link rel="stylesheet" href="../css/border.css">
-		<style type="text/css">
-			.header {
-				height: 0.88rem;
-				width: 100%;
-				background: #33cccc;
-				display: flex;
-				color: #fff;
-				align-items: center;
-			}
-			
-			.header-left {
-				min-width: 1rem;
-				line-height: 0.6rem;
-				padding-left: 0.2rem;
-				text-align: left;
-				font-size: 0.28rem;
-			}
-			
-			.header-content {
-				flex: 1;
-				overflow: hidden;
-				display: flex;
-				justify-content: center;
-			}
-			
-			.header-content-item {
-				display: flex;
-				min-width: 3.08rem;
-				height: 0.6rem;
-				background: #33CCCC;
-				border-radius: 0.12rem;
-				overflow: hidden;
-				border: 0.02rem solid #fff;
-				align-items: center;
-			}
-			
-			.header-content-item-title {
-				display: flex;
-				justify-content: center;
-				color: #fff;
-				min-width: 1.54rem;
-				height: 0.6rem;
-				align-items: center;
-				font-size: 0.36rem;
-			}
-			
-			.Selected {
-				background: #fff;
-				color: #33CCCC;
-			}
-			
-			.header-right {
-				text-align: right;
-				min-width: 1rem;
-			}
-			
-			.add-icon {
-				font-size: 0.32rem;
-				padding-right: 0.2rem;
-			}
-			
-			.search-box {
-				padding: 0.4rem 0;
-				position: relative;
-			}
-			
-			.search-content {
-				position: absolute;
-				left: 50%;
-				margin-left: -0.6rem;
-				line-height: 0.28rem;
-				margin-top: 0.1rem;
-			}
-			
-			.search-icon {
-				opacity: 0.3;
-				height: 0.36rem;
-				width: 0.36rem;
-			}
-			
-			.search-title {
-				color: #000000;
-				opacity: 0.3;
-				font-size: 0.28rem;
-				margin-left: 0.2rem;
-			}
-			
-			.search-input {
-				margin-left: 10%;
-				width: 80%;
-				height: 0.56rem;
-				background-color: #dcdcdc;
-				border-radius: 0.28rem;
-			}
-			
-			.contact-box {
-				margin-left: 10%;
-				width: 80%;
-			}
-			
-			.contact-title {
-				font-size: 0.36rem;
-			}
-			
-			.contact-list {
-				margin-top: 0.2rem;
-				margin-bottom: 0.96rem;
-			}
-			
-			.contact-item {
-				width: 100%;
-				height: 1.6rem;
-				border-bottom: 1px solid #ccc;
-			}
-			
-			.contact-item-box {
-				padding-top: 0.4rem;
-			}
-			
-			.contact-item-face {
-				max-height: 0.8rem;
-				max-width: 0.8rem;
-				vertical-align: top;
-			}
-			
-			.contact-item-content {
-				display: inline-block;
-				margin-left: 0.4rem;
-			}
-			
-			.contact-item-nick {
-				font-size: 0.32rem;
-			}
-			
-			.contact-item-text {
-				font-size: 0.24rem;
-				opacity: 0.5;
-				margin-top: 0.2rem;
-			}
-			
-			.contact-item-time {
-				float: right;
-				color: #0e050a;
-				opacity: 0.5;
-			}
-			
-			footer {
-				position: fixed;
-				bottom: 0;
-				height: 0.97rem;
-				width: 100%;
-				border-top: 1px solid #ccc;
-				text-align: center;
-				z-index: 99;
-				background-color: #fff;
-			}
-			
-			.footer-item {
-				float: left;
-				width: 25%;
-				height: 100%;
-				padding-top: 0.12rem;
-			}
-			
-			.footer-item img {
-				width: 0.36rem;
-				height: 0.36rem;
-				margin-bottom: 0.1rem
-			}
-		</style>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>社交</title>
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/border.css">
+	<style type="text/css">
+		.header {
+			height: 0.88rem;
+			width: 100%;
+			background: #33cccc;
+			display: flex;
+			color: #fff;
+			align-items: center;
+		}
 
-	<body>
-		<div class="header">
-			<div class="header-left">
-				社交圈
-			</div>
-			<div class="header-content">
-				<div class="header-content-item">
-					<div class="header-content-item-title Selected">聊天</div>
+		.header-left {
+			min-width: 1rem;
+			line-height: 0.6rem;
+			padding-left: 0.2rem;
+			text-align: left;
+			font-size: 0.28rem;
+			color: #fff;
+		}
+
+		.header-content {
+			flex: 1;
+			overflow: hidden;
+			display: flex;
+			justify-content: center;
+		}
+
+		.header-content-item {
+			display: flex;
+			min-width: 3.08rem;
+			height: 0.6rem;
+			background: #33CCCC;
+			border-radius: 0.12rem;
+			overflow: hidden;
+			border: 0.02rem solid #fff;
+			align-items: center;
+		}
+
+		.header-content-item-title {
+			display: flex;
+			justify-content: center;
+			color: #fff;
+			min-width: 1.54rem;
+			height: 0.6rem;
+			align-items: center;
+			font-size: 0.36rem;
+		}
+
+		.Selected {
+			background: #fff;
+			color: #33CCCC;
+		}
+
+		.header-right {
+			text-align: right;
+			min-width: 1rem;
+		}
+
+		.add-icon {
+			font-size: 0.4rem;
+			padding-right: 0.2rem;
+		}
+
+		.search-box {
+			height: 1.2rem;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-bottom: 0.02rem solid #ccc;
+		}
+
+		.search-item {
+			width: 6rem;
+			height: 0.6rem;
+			background-color: #dcdcdc;
+			border-radius: .28rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #888;
+		}
+
+		.search-item img {
+			width: .36rem;
+			height: .36rem;
+			margin-right: 0.2rem;
+		}
+
+		.contact-box {
+			margin-top: 0.2rem;
+			margin-left: 10%;
+			width: 80%;
+		}
+
+		.contact-title {
+
+			font-size: 0.36rem;
+		}
+
+		.contact-list {
+			margin-top: 0.2rem;
+			margin-bottom: 0.96rem;
+		}
+
+		.contact-item {
+			width: 100%;
+			height: 1.6rem;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.contact-item-box {
+			padding-top: 0.4rem;
+		}
+
+		.contact-item-face {
+			max-height: 0.8rem;
+			max-width: 0.8rem;
+			vertical-align: top;
+		}
+
+		.contact-item-content {
+			display: inline-block;
+			margin-left: 0.4rem;
+		}
+
+		.contact-item-nick {
+			font-size: 0.32rem;
+		}
+
+		.contact-item-text {
+			font-size: 0.24rem;
+			opacity: 0.5;
+			margin-top: 0.2rem;
+		}
+
+		.contact-item-time {
+			float: right;
+			color: #0e050a;
+			opacity: 0.5;
+		}
+
+		footer {
+			position: fixed;
+			bottom: 0;
+			height: 0.97rem;
+			width: 100%;
+			border-top: 1px solid #ccc;
+			text-align: center;
+			z-index: 99;
+			background-color: #fff;
+		}
+
+		.footer-item {
+			float: left;
+			width: 25%;
+			height: 100%;
+			padding-top: 0.12rem;
+		}
+
+		.footer-item img {
+			width: 0.36rem;
+			height: 0.36rem;
+			margin-bottom: 0.1rem
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<a href="./social-circle.html">
+		<div class="header-left">
+			社交圈
+		</div></a>
+		<div class="header-content">
+			<div class="header-content-item">
+
+				<div class="header-content-item-title Selected">聊天</div>
+				<a href="./social-friend.html">
 					<div class="header-content-item-title ">朋友</div>
-				</div>
+				</a>
+			</div>
+		</div>
+		<div class="header-right">
+			<span class="iconfont add-icon">&#xe626;</span>
+		</div>
+	</div>
+	<div class="search-box">
+		<div class="search-item">
+			<img src="../icon/sousuotubiao@2x.png" alt=""> 搜索
+		</div>
+	</div>
 
-			</div>
-			<div class="header-right">
-				<span class="iconfont add-icon">&#xe602;</span>
-			</div>
+	<div class="search-info">
+		<div class="search-input">
 		</div>
-		<div class="search-box">
-			<div class="search-content">
-				<img class="search-icon" src="../icon/sousuotubiao@2x.png" alt="">
-				<span class="search-title">搜索</span>
+	</div>
+	<div class="contact-box">
+		<span class="contact-title">联系人</span>
+		<ul class="contact-list">
+			<li class="contact-item">
+				<div class="contact-item-box">
+					<img src="../icon/img.png" alt="头像" class="contact-item-face">
+					<div class="contact-item-content">
+						<p class="contact-item-nick">亚当·兰伯特</p>
+						<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
+					</div>
+					<span class="contact-item-time">8月2日</span>
+				</div>
+			</li>
+			<li class="contact-item">
+				<div class="contact-item-box">
+					<img src="../icon/img.png" alt="头像" class="contact-item-face">
+					<div class="contact-item-content">
+						<p class="contact-item-nick">亚当·兰伯特</p>
+						<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
+					</div>
+					<span class="contact-item-time">8月2日</span>
+				</div>
+			</li>
+			<li class="contact-item">
+				<div class="contact-item-box">
+					<img src="../icon/img.png" alt="头像" class="contact-item-face">
+					<div class="contact-item-content">
+						<p class="contact-item-nick">亚当·兰伯特</p>
+						<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
+					</div>
+					<span class="contact-item-time">8月2日</span>
+				</div>
+			</li>
+			<li class="contact-item">
+				<div class="contact-item-box">
+					<img src="../icon/img.png" alt="头像" class="contact-item-face">
+					<div class="contact-item-content">
+						<p class="contact-item-nick">亚当·兰伯特</p>
+						<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
+					</div>
+					<span class="contact-item-time">8月2日</span>
+				</div>
+			</li>
+			<li class="contact-item">
+				<div class="contact-item-box">
+					<img src="../icon/img.png" alt="头像" class="contact-item-face">
+					<div class="contact-item-content">
+						<p class="contact-item-nick">亚当·兰伯特</p>
+						<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
+					</div>
+					<span class="contact-item-time">8月2日</span>
+				</div>
+			</li>
+			<li class="contact-item">
+				<div class="contact-item-box">
+					<img src="../icon/img.png" alt="头像" class="contact-item-face">
+					<div class="contact-item-content">
+						<p class="contact-item-nick">亚当·兰伯特</p>
+						<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
+					</div>
+					<span class="contact-item-time">8月2日</span>
+				</div>
+			</li>
+			<li class="contact-item">
+				<div class="contact-item-box">
+					<img src="../icon/img.png" alt="头像" class="contact-item-face">
+					<div class="contact-item-content">
+						<p class="contact-item-nick">亚当·兰伯特</p>
+						<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
+					</div>
+					<span class="contact-item-time">8月2日</span>
+				</div>
+			</li>
+			<li class="contact-item">
+				<div class="contact-item-box">
+					<img src="../icon/img.png" alt="头像" class="contact-item-face">
+					<div class="contact-item-content">
+						<p class="contact-item-nick">亚当·兰伯特</p>
+						<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
+					</div>
+					<span class="contact-item-time">8月2日</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<footer>
+		<a href="../index.html">
+			<div class="footer-item">
+				<img src="../icon/shangchengxianxing@2x.png" alt="">
+				<p>商城</p>
 			</div>
-			<input type="text" class="search-input">
-		</div>
-		<div class="contact-box">
-			<span class="contact-title">联系人</span>
-			<ul class="contact-list">
-				<li class="contact-item">
-					<div class="contact-item-box">
-						<img src="../icon/img.png" alt="头像" class="contact-item-face">
-						<div class="contact-item-content">
-							<p class="contact-item-nick">亚当·兰伯特</p>
-							<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
-						</div>
-						<span class="contact-item-time">8月2日</span>
-					</div>
-				</li>
-				<li class="contact-item">
-					<div class="contact-item-box">
-						<img src="../icon/img.png" alt="头像" class="contact-item-face">
-						<div class="contact-item-content">
-							<p class="contact-item-nick">亚当·兰伯特</p>
-							<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
-						</div>
-						<span class="contact-item-time">8月2日</span>
-					</div>
-				</li>
-				<li class="contact-item">
-					<div class="contact-item-box">
-						<img src="../icon/img.png" alt="头像" class="contact-item-face">
-						<div class="contact-item-content">
-							<p class="contact-item-nick">亚当·兰伯特</p>
-							<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
-						</div>
-						<span class="contact-item-time">8月2日</span>
-					</div>
-				</li>
-				<li class="contact-item">
-					<div class="contact-item-box">
-						<img src="../icon/img.png" alt="头像" class="contact-item-face">
-						<div class="contact-item-content">
-							<p class="contact-item-nick">亚当·兰伯特</p>
-							<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
-						</div>
-						<span class="contact-item-time">8月2日</span>
-					</div>
-				</li>
-				<li class="contact-item">
-					<div class="contact-item-box">
-						<img src="../icon/img.png" alt="头像" class="contact-item-face">
-						<div class="contact-item-content">
-							<p class="contact-item-nick">亚当·兰伯特</p>
-							<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
-						</div>
-						<span class="contact-item-time">8月2日</span>
-					</div>
-				</li>
-				<li class="contact-item">
-					<div class="contact-item-box">
-						<img src="../icon/img.png" alt="头像" class="contact-item-face">
-						<div class="contact-item-content">
-							<p class="contact-item-nick">亚当·兰伯特</p>
-							<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
-						</div>
-						<span class="contact-item-time">8月2日</span>
-					</div>
-				</li>
-				<li class="contact-item">
-					<div class="contact-item-box">
-						<img src="../icon/img.png" alt="头像" class="contact-item-face">
-						<div class="contact-item-content">
-							<p class="contact-item-nick">亚当·兰伯特</p>
-							<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
-						</div>
-						<span class="contact-item-time">8月2日</span>
-					</div>
-				</li>
-				<li class="contact-item">
-					<div class="contact-item-box">
-						<img src="../icon/img.png" alt="头像" class="contact-item-face">
-						<div class="contact-item-content">
-							<p class="contact-item-nick">亚当·兰伯特</p>
-							<p class="contact-item-text">啦啦啦啦啦啦啦啦啦啦</p>
-						</div>
-						<span class="contact-item-time">8月2日</span>
-					</div>
-				</li>
-			</ul>
-		</div>
-		<footer>
-			<a href="../index.html">
-				<div class="footer-item">
-					<img src="../icon/shangchengxianxing@2x.png" alt="">
-					<p>商城</p>
-				</div>
-			</a>
-			<a href="../wealth/wealth.html">
-				<div class="footer-item">
-					<img src="../icon/caifuxianxing@2x.png" alt="">
-					<p>财富</p>
-				</div>
-			</a>
-			<a href="../social/social.html">
-				<div class="footer-item">
-					<img src="../icon/shejiaojianying@2x.png" alt="">
-					<p>社交</p>
-				</div>
-			</a>
-			<a href="../my/personalInfo-my.html">
+		</a>
+		<a href="../wealth/wealth.html">
+			<div class="footer-item">
+				<img src="../icon/caifuxianxing@2x.png" alt="">
+				<p>财富</p>
+			</div>
+		</a>
+		<a href="../social/social.html">
+			<div class="footer-item">
+				<img src="../icon/shejiaojianying@2x.png" alt="">
+				<p>社交</p>
+			</div>
+		</a>
+		<a href="../my/personalInfo-my.html">
 			<div class="footer-item">
 				<img src="../icon/wodexianxing@2x.png" alt="">
 				<p>我</p>
 			</div>
-			</a>
-		</footer>
-	</body>
+		</a>
+	</footer>
+</body>
 
 </html>

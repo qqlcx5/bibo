@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/border.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <title>Document</title>
+    <style>
+        .header {
+            height: 0.88rem;
+            width: 100%;
+            background: #33cccc;
+            display: flex;
+            color: #fff;
+            align-items: center;
+        }
+
+        .header-left {
+            min-width: 1rem;
+            line-height: 0.6rem;
+            padding-left: 0.2rem;
+            text-align: left;
+            font-size: 0.28rem;
+            color: #fff;
+        }
+
+        .header-content {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-content-item {
+            display: flex;
+            min-width: 3.08rem;
+            height: 0.6rem;
+            background: #33CCCC;
+            border-radius: 0.12rem;
+            overflow: hidden;
+            border: 0.02rem solid #fff;
+            align-items: center;
+        }
+
+        .header-content-item-title {
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            min-width: 1.54rem;
+            height: 0.6rem;
+            align-items: center;
+            font-size: 0.36rem;
+        }
+
+        .Selected {
+            background: #fff;
+            color: #33CCCC;
+        }
+
+        .header-right {
+            text-align: right;
+            min-width: 1rem;
+        }
+
+        .add-icon {
+            font-size: 0.4rem;
+            padding-right: 0.2rem;
+        }
+
+        .search-box {
+            height: 1.2rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 0.02rem solid #ccc;
+        }
+
+        .search-item {
+            width: 6rem;
+            height: 0.6rem;
+            background-color: #dcdcdc;
+            border-radius: .28rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+        }
+
+        .search-item img {
+            width: .36rem;
+            height: .36rem;
+            margin-right: 0.2rem;
+        }
+
+        .content-title {
+            width: 100%;
+            height: 0.8rem;
+            display: flex;
+            font-size: 0.36rem;
+            border-bottom: .02rem solid #cccccc;
+            overflow: hidden;
+        }
+
+        .content-title .select {
+            border-bottom: 0.06rem solid #33cccc;
+        }
+
+        .content-item {
+            width: 50%;
+            height: 0.8rem;
+            text-align: center;
+            line-height: 0.8rem;
+            box-sizing: border-box;
+        }
+
+        .task-list {
+            height: calc(100vh - 4.8rem);
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .task-item {
+            height: 1.2rem;
+            width: 100%;
+            border-bottom: 0.02rem solid #ccc;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .task-item img {
+            width: .8rem;
+            height: .8rem;
+            margin: 0 0.4rem;
+        }
+
+        .task-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 1.2rem;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="./social-circle.html">
+            <div class="header-left">
+                社交圈
+            </div>
+        </a>
+        <div class="header-content">
+            <div class="header-content-item">
+                <a href="./social.html">
+                    <div class="header-content-item-title ">聊天</div>
+                </a>
+                <div class="header-content-item-title Selected">朋友</div>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="iconfont add-icon">&#xe626;</span>
+        </div>
+    </div>
+    <div class="search-box">
+        <div class="search-item">
+            <img src="../icon/sousuotubiao@2x.png" alt=""> 搜索
+        </div>
+    </div>
+
+    <div class="search-info">
+        <div class="search-input">
+        </div>
+    </div>
+    <div class="content-title">
+        <div class="content-item select">
+            联系人（1）
+        </div>
+        <div class="content-item">
+            通讯录（0）
+        </div>
+    </div>
+    <div class="task-list">
+        <ul>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/lianxikefu@2x.png" alt="">
+                </div>
+                <div class="task-content">
+                    碧波
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/lianxikefu@2x.png" alt="">
+                </div>
+                <div class="task-content">
+                    碧波
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/lianxikefu@2x.png" alt="">
+                </div>
+                <div class="task-content">
+                    碧波
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/lianxikefu@2x.png" alt="">
+                </div>
+                <div class="task-content">
+                    碧波
+                </div>
+            </li>
+            <li class="task-item">
+                <div>
+                    <img src="../icon/lianxikefu@2x.png" alt="">
+                </div>
+                <div class="task-content">
+                    碧波
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+</body>
+
+</html>
