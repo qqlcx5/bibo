@@ -13,7 +13,7 @@
     <style>
         .body-content {
             background: #F2F2F2;
-            height: 100vh;
+            min-height: 100vh;
             width: 100%;
             color: #25212B;
         }
@@ -85,16 +85,15 @@
 
         .BBB-info {
             width: 100%;
-            height: 4.4rem;
-            background-color: #ffffff;
+            min-height: 3.2rem;
+            max-height: 6.4rem;
+            background-color: #fff;
         }
 
         .BBB-top {
             height: 2.2rem;
             width: 100%;
-
             display: flex;
-
             align-items: center;
             flex-direction: column;
             font-size: 0.56rem;
@@ -107,8 +106,11 @@
             margin: 0.2rem 0;
         }
 
-        .BBB-botttom {
-            height: 2.2rem;
+        .BBB-bottom {
+            margin-top: 0.2rem;
+            min-height: 0.2rem;
+            max-height: 4rem;
+            overflow: auto;
             width: 100%;
             padding: 0 0.4rem;
             text-align: justify;
@@ -118,11 +120,9 @@
 
         .justify-btn {
             display: flex;
-
             align-items: center;
             flex-direction: column;
         }
-
         .btn {
             width: 6rem;
             height: .8rem;
@@ -136,7 +136,6 @@
             margin-top: 0.2rem;
 
         }
-
     </style>
 </head>
 
@@ -144,9 +143,9 @@
     <div class="body-content">
         <div class="header">
             <a href="javascript:history.back();">
-            <div class="header-left">
-                <span class="iconfont back">&#xe600;</span>
-            </div>
+                <div class="header-left">
+                    <span class="iconfont back">&#xe600;</span>
+                </div>
             </a>
             <div class="header-content">
                 我的财富
@@ -166,20 +165,17 @@
                 </div>
                 <div>BBB</div>
             </div>
-            <div class="BBB-botttom">
-                货币介绍货币介绍货币介绍货币介绍货币介绍货币介绍货币介绍货币介绍货币介绍 货币介绍货币介绍货币介绍货币介绍货币介绍货币介绍货币介绍货币介绍货币介绍 货币介绍货币介绍货币介绍货币介绍货币介绍
+            <div class="BBB-bottom">
+                介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍介绍货币介绍货币介绍
             </div>
         </div>
         <div class="justify-btn">
             <a href="wealth-exchange.html"><div class="btn">兑换</div></a>
             <a href="wealth-coin.html"><div class="btn">充币</div></a>
             <a href="wealth-Currency.html"><div class="btn">提币</div></a>
-
-
-
         </div>
     </div>
-
-<script src="../js/mui.min.js"></script></body>
+    <script src="../js/mui.min.js"></script>
+</body>
 
 </html>
